@@ -1,0 +1,243 @@
+/* bren.sdf.org: custom, no framework */
+
+:root {
+  --bg: #0b2f3e;       /* dark teal */
+  --fg: #f4ede1;       /* white-sand */
+  --code-bg: #2b1007;  /* darker red for code/pre */
+  --code-fg: #f4ede1;
+  --link: #7fd9c7;     /* unvisited */
+  --link-hover: #ffd580;
+  --link-visited: #c9a7e0;
+  --border: #1a5a5b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 1.8em 0 0.6em;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p, ul, ol, blockquote, table {
+  margin: 0 0 1.3em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+li > ul, li > ol {
+  margin-top: 0.4em;
+  margin-bottom: 0;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0 1rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:visited:hover {
+  color: var(--link-hover);
+}
+
+code, pre, kbd, samp {
+  background: var(--code-bg);
+  color: var(--code-fg);
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  border-radius: 3px;
+}
+
+code {
+  padding: 0.15em 0.4em;
+}
+
+pre {
+  padding: 0.75em 1em;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  background: none;
+}
+
+blockquote {
+  border-left: 3px solid var(--border);
+  margin: 1.5em 0;
+  padding: 0.25em 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  border: 1px solid var(--border);
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.5em;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background: var(--code-bg);
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(244, 237, 225, 0.06);
+}
+
+img, video {
+  max-width: 100%;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+footer small {
+  opacity: 0.8;
+}
+
+.key-block {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin: 0 0 1.3em;
+  overflow: hidden;
+}
+
+.key-block .key-label {
+  margin: 0;
+  padding: 0.4em 0.9em;
+  background: var(--border);
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.key-block pre {
+  margin: 0;
+  border-radius: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.guestbook-notice {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  background: rgba(244, 237, 225, 0.06);
+}
+
+.guestbook-form label {
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.guestbook-form input[type="text"],
+.guestbook-form textarea {
+  width: 100%;
+  max-width: 100%;
+  background: var(--code-bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.guestbook-form button {
+  color: var(--bg);
+  border: none;
+  border-radius: 4px;
+  padding: 0.6em 1.2em;
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.guestbook-form button:hover {
+  background: var(--link-hover);
+}
+
+/* honeypot: hidden from real visitors, left in the tab/DOM flow for bots */
+.guestbook-trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.guestbook-entry {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  margin-bottom: 1em;
+}
+
+.guestbook-meta {
+  margin: 0 0 0.4em;
+}
+
+.guestbook-ts {
+  opacity: 0.7;
+  font-size: 0.85rem;
+}
+
+.guestbook-message {
+  margin: 0;
+}

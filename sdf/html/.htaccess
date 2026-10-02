@@ -1,0 +1,7 @@
+# Keep the guestbook's flat-file storage from being fetched directly.
+# SDF's Apache config recognizes the classic syntax; if that stops
+# working, the modern equivalent is "Require all denied".
+<Files "guestbook.dat">
+    Order allow,deny
+    Deny from all
+</Files>

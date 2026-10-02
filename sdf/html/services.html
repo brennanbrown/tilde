@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services &amp; Tools | bren.sdf.org</title>
+  <meta name="description" content="The services and tools an SDF membership includes: shell, email, hosting, fediverse, and more: and how to actually use them.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Services | bren.sdf.org</h1>
+  <nav>
+    <a href="index.html">Home</a> &middot;
+    <a href="sdf.html">What is SDF?</a> &middot;
+    <a href="services.html">Services &amp; Tools</a> &middot;
+    <a href="keys.html">Keys</a> &middot;
+    <a href="guestbook.cgi">Guestbook</a>
+  </nav>
+</header>
+
+<main>
+
+  <h2>The Shell</h2>
+
+  <p>
+    Everything starts at the shell. <code>ssh you@tty.sdf.org</code> loads
+    multi-user NetBSD with bash, ksh, tcsh, rc, and zsh; editors from
+    <code>ed</code> to <code>emacs</code>; and "hundreds of shell/network
+    utilities" per the <a href="https://sdf.org/?join">join page</a>. Plus
+    <code>ping</code>, <code>traceroute</code>, <code>dig</code>,
+    <code>whois</code>, and <code>finger</code>.
+  </p>
+
+  <h2>Email</h2>
+
+  <ul>
+    <li>Your address is <code>you@sdf.org</code>, delivered to your home directory.
+        Read it with <code>mutt</code>, <code>alpine</code>, <code>elm</code>,
+        or <code>mailx</code></li>
+    <li>Webmail: <a href="https://mx.sdf.org">mx.sdf.org</a> (SDF credentials)</li>
+    <li>Mail clients: IMAP <code>mx.sdf.org:993</code>, SMTP
+        <code>mx.sdf.org:465</code> (SSL)</li>
+    <li>Forwarding: put a destination in <code>~/.forward</code></li>
+  </ul>
+
+  <h2>Web space</h2>
+
+  <ol>
+    <li>Run <code>mkhomepg</code> on the shell and it creates <code>~/html</code> and
+        asks which URL you want</li>
+    <li>Drop files in <code>~/html</code> and the site is live immediately at
+        <code>you.sdf.org</code></li>
+    <li>ARPA members can pick a vanity domain from ~60 choices
+        (<code>pdp10.org</code>, <code>twenex.org</code>, <code>chaosnet.org</code>,
+        <code>freak.net</code>, <code>multics.org</code>…). See
+        <a href="https://wiki.sdf.org">wiki.sdf.org</a> for the list</li>
+  </ol>
+
+  <p>
+    CGI works out of the box. Shell/awk/sed for everyone, and full
+    php/perl/python/ruby for ARPA members.
+    <a href="https://wiki.sdf.org/doku.php?id=menu_of_sdf_offerings">Details here</a>.
+  </p>
+
+  <h2>Gopher + Gemini</h2>
+
+  <p>
+    Run <code>mkgopher</code>, choose <code>setup</code>, then <code>quit</code>,
+    it creates <code>~/gopher</code> (a symlink into <code>/ftp/pub/users/you</code>)
+    served as <em>both</em> <code>gopher://sdf.org/1/users/you</code> and
+    <code>gemini://sdf.org/users/you</code>. One directory, two protocols. Write a
+    <code>gophermap</code> or add <code>.gmi</code> files. Permissions matter:
+    files group-readable (<code>chmod g+r</code>), directories <code>g+rx</code>.
+    SDF's own guides:
+    <a href="https://wiki.sdf.org/doku.php?id=gopher_site_setup_and_hosting_features">gopher setup</a>
+    and
+    <a href="https://wiki.sdf.org/doku.php?id=gemini_site_setup_and_hosting_features">gemini setup</a>.
+  </p>
+
+  <h2>Community: com, bboard, USENET</h2>
+
+  <ul>
+    <li><code>com</code>: the real-time chat. Type <code>w</code> to see
+        who's on. It predates IRC</li>
+    <li><code>bboard</code>: the message board: announcements, tech questions,
+        decades of archives. Ask for help here</li>
+    <li><strong>USENET</strong>: read/post with <code>slrn</code>,
+        <code>tin</code>, <code>nn</code>, or <code>alpine</code>'s news mode;
+        ARPA adds the ClariNET feed</li>
+    <li><code>finger</code>: set <code>~/.plan</code> and
+        <code>~/.project</code> for <code>finger you@sdf.org</code></li>
+  </ul>
+
+  <h2>Hosted services</h2>
+
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Where</th><th>How to use it</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>IRC</td><td><code>irc.sdf.org</code>:6667</td><td>SDF's own network: <code>irssi</code> on the shell then <code>/connect irc.sdf.org</code>, or any client. Hub channel <code>#sdf</code>, help at <code>#helpdesk</code></td></tr>
+      <tr><td>Jabber/XMPP</td><td><code>jabber.sdf.org</code></td><td>Register in-band from any XMPP client; your JID is <code>you@sdf.org</code></td></tr>
+      <tr><td>Matrix</td><td><code>matrix.sdf.org</code></td><td>Point Element at the homeserver, register <code>@you:matrix.sdf.org</code></td></tr>
+      <tr><td>Gitea</td><td><a href="https://git.sdf.org">git.sdf.org</a></td><td>SDF's git forge: register on the web UI</td></tr>
+      <tr><td>Mastodon</td><td><a href="https://mastodon.sdf.org">mastodon.sdf.org</a></td><td>Member-run fediverse instance</td></tr>
+      <tr><td>PixelFed</td><td><a href="https://pixelfed.sdf.org">pixelfed.sdf.org</a></td><td>Federated photo sharing</td></tr>
+      <tr><td>PeerTube</td><td><a href="https://toobnix.org">toobnix.org</a></td><td>Federated video</td></tr>
+      <tr><td>TT-RSS</td><td><a href="https://ttrss.sdf.org">ttrss.sdf.org</a></td><td>Web RSS reader: register on the site</td></tr>
+      <tr><td>Lemmy</td><td><a href="https://lemmy.sdf.org">lemmy.sdf.org</a></td><td>Federated link aggregator</td></tr>
+      <tr><td>Gallery</td><td><a href="https://sdf.org/g">sdf.org/g</a></td><td>Member image gallery</td></tr>
+      <tr><td>Deskshots</td><td><a href="https://deskshots.org">deskshots.org</a></td><td>Desktop screenshot sharing, an SDF tradition</td></tr>
+      <tr><td>Jitsi</td><td><a href="https://jitsi.sdf.org">jitsi.sdf.org</a></td><td>Video meetings</td></tr>
+      <tr><td>aNONradio</td><td><a href="http://anonradio.net">anonradio.net</a></td><td>Community radio: members can DJ; schedule and tutorials on the wiki</td></tr>
+      <tr><td>Minecraft</td><td><code>mc.sdf.org</code></td><td>Private member server: details on <a href="https://sdf.org/?minecraft">sdf.org/?minecraft</a></td></tr>
+      <tr><td>BZFlag</td><td><code>sdf.org:5154</code></td><td>3D tank battle, running for years</td></tr>
+      <tr><td>SDFMud</td><td><a href="http://sdf.org/mud">sdf.org/mud</a></td><td>SMAUG MUD</td></tr>
+      <tr><td>TOPS-20</td><td><a href="https://twenex.org">twenex.org</a></td><td>Public PDP-10 system: <code>ssh new@twenex.org</code> to claim an account, interactive tutorial included</td></tr>
+    </tbody>
+  </table>
+
+  <h2>ARPA ($36, lifetime)</h2>
+
+  <ul>
+    <li><strong>Outbound tools</strong>: telnet, ssh, sftp, ftp, <code>snarf</code>,
+        <code>wget</code>, ytalk, external IRC. Free accounts are inbound-only;
+        ARPA opens the network both ways</li>
+    <li><strong>File transfer</strong>: <code>scp</code>/<code>sftp</code> and
+        non-interactive SSH: <code>ssh-copy-id</code> is enabled 
+        (<a href="https://wiki.sdf.org/doku.php?id=transferring_files">transferring
+        files guide</a>)</li>
+    <li><strong>Development</strong>: gcc, perl, php, python, ruby, elisp on the
+        box</li>
+    <li><strong>Full CGI</strong>: php/perl/python/ruby on your site</li>
+    <li><strong>VoIP</strong>: internet calling, voicemail, conferencing (PSTN
+        calling is a $15/quarter add-on with a real DID option)</li>
+    <li><strong><code>ttytter</code></strong>: command-line Twitter/X client</li>
+    <li><strong>UUCP + ClariNET</strong>: mail and newsfeeds via TCP or dialup</li>
+    <li><strong>Voting rights</strong>: on system features and policy</li>
+    <li><strong>Quotas</strong>: ~150 MB / 5000 files each for home, mail,
+        webspace, gopherspace</li>
+  </ul>
+
+  <p>
+    Paid add-ons stack on top: <strong>DBA</strong> ($30/yr, MySQL+sqlite),
+    <strong>VHOST</strong> ($5–20/mo: host your own domain with automatic Let's
+    Encrypt SSL and private logs), <strong>DNS</strong> ($20/yr),
+    <strong>VPM</strong> virtual mail ($20/yr), <strong>MLIST</strong> majordomo
+    lists ($30/yr), <strong>REGIS</strong> domain registration ($18/yr), and
+    <strong>PSTN VoIP</strong> ($15/qtr). Enable them through <code>maint</code>.
+  </p>
+
+  <h2>MetaARPA ($11/quarter)</h2>
+
+  <p>
+    The <a href="https://wiki.sdf.org/doku.php?id=the_metaarray">MetaArray</a>
+    (800 GB quota compute cluster: run <code>metaarray</code> on the SDF shell to
+    enable, then <code>ssh ma.sdf.org</code>), <code>cron</code>,
+    <code>screen</code>/<code>tmux</code>, background processes with TCP port
+    allocation, SSH tunneling, rsync, java, SBCL, SSL on your site, mdns.org
+    dynamic DNS, NextCloud, and the ability to validate new users yourself.
+    There's also a VPN membership ($4/mo) and full VPS slices ($7–28/mo: your
+    choice of CentOS, Debian, Ubuntu, OpenSUSE, Trisquel, Fedora, Slackware,
+    NetBSD, FreeBSD, OpenBSD, DragonFly, OmniOS, Solaris, or Plan 9).
+  </p>
+
+  <h2>Get Started</h2>
+
+  <ol>
+    <li><code>ssh new@sdf.org</code> (or <a href="https://ssh.sdf.org">ssh.sdf.org</a>
+        in a browser) and create your account</li>
+    <li>Run <code>maint</code> to see your level; get validated ($1 or ask a
+        MetaARPA member)</li>
+    <li><code>mkhomepg</code> for web space, <code>mkgopher</code> for
+        gopher+gemini, <code>com</code> to meet people, <code>bboard</code> to ask
+        questions</li>
+    <li>Upgrade to ARPA. It's only $36.</li>
+  </ol>
+
+</main>
+
+<footer>
+  <p>
+    <small>
+      Plain HTML + CSS &middot;
+      <a href="index.html">bren.sdf.org</a> &middot;
+      sources: <a href="https://sdf.org/?join">sdf.org/?join</a>,
+      <a href="https://wiki.sdf.org">wiki.sdf.org</a>
+    </small>
+  </p>
+</footer>
+
+</body>
+</html>
