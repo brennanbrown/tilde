@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>~brennan's weblog</title><link>https://tilde.club/~brennan/blog/index.html</link>
+<description>Queer Métis writer & web developer</description><language>en</language>
+<lastBuildDate>January 20, 2026 17:44:06 UTC</lastBuildDate>
+<pubDate>January 20, 2026 17:44:06 UTC</pubDate>
+<atom:link href="https://tilde.club/~brennan/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Hello, World!
+</title><description><![CDATA[
+
+<p>I’m excited that tilde.club uses <code>bashblog</code> as their blogging tool. Very cool!</p>
+
+<p><a href="https://tilde.town">https://tilde.town</a> has their own custom built blog engine called <code>feels</code> which I also like.</p>
+
+<p>Let’s see if I keep this updated! I have so many blogs now, hehe.</p>
+
+<p>tags: <a href='tag_introduction.html'>introduction</a>, <a href='tag_tags-are-kebab-case.html'>tags-are-kebab-case</a></p>
+
+
+<!-- text end -->
+]]></description><link>https://tilde.club/~brennan/blog/hello-world.html</link>
+<guid>https://tilde.club/~brennan/blog/./hello-world.html</guid>
+<dc:creator>~brennan</dc:creator>
+<pubDate>January 20, 2026 17:36:10 UTC</pubDate></item>
+</channel></rss>

@@ -1,0 +1,271 @@
+/* Gruvbox-themed CSS for bashblog */
+/* Inspired by brennan's tilde.town aesthetic */
+
+:root {
+	  --bg-dark: #282828;
+  --bg-medium: #32302f;
+  --bg-light: #3c3836;
+  --fg-main: #ebdbb2;
+  --fg-dim: #a89984;
+  --accent-orange: #fe8019;
+  --accent-yellow: #fabd2f;
+  --accent-green: #b8bb26;
+  --accent-aqua: #8ec07c;
+  --accent-blue: #83a598;
+  --accent-purple: #d3869b;
+  --accent-red: #fb4934;
+  --border: #d79921;
+  --border-dim: #665c54;
+}
+
+/* Base Styles */
+body {
+	  background-color: var(--bg-dark);
+  color: var(--fg-main);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headers */
+h1, h2, h3 {
+	  color: var(--accent-yellow);
+  border-left: 3px solid var(--border);
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+h1 {
+	  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+h2 {
+	  font-size: 1.4em;
+  color: var(--accent-orange);
+}
+
+h3 {
+	  font-size: 1.2em;
+  color: var(--accent-aqua);
+}
+
+/* Links */
+a {
+	  color: var(--accent-blue);
+  text-decoration: wavy underline;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+	  color: var(--accent-yellow);
+  text-decoration: underline;
+}
+
+a:visited {
+	  color: var(--accent-purple);
+}
+
+/* Header/Navigation */
+#header {
+	  border-bottom: 2px solid var(--border);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#title {
+	  font-size: 2em;
+  color: var(--accent-yellow);
+  font-weight: bold;
+  margin: 0;
+}
+
+#description {
+	  color: var(--fg-dim);
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Posts */
+.entry {
+	  margin-bottom: 40px;
+  padding: 20px;
+  background: var(--bg-medium);
+  border-left: 3px solid var(--accent-green);
+}
+
+.entry h3 {
+	  margin-top: 0;
+  border-left: none;
+  padding-left: 0;
+}
+
+.date {
+	  color: var(--fg-dim);
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Tags */
+.tags {
+	  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-dim);
+}
+
+.tags a {
+	  background: var(--bg-light);
+  padding: 3px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+.tags a:hover {
+	  background: var(--border);
+  color: var(--bg-dark);
+}
+
+/* Code blocks */
+pre, code {
+	  background: var(--bg-light);
+  border: 1px solid var(--border-dim);
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+	  padding: 15px;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
+code {
+	  padding: 2px 5px;
+  color: var(--accent-green);
+}
+
+pre code {
+	  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+/* Blockquotes */
+blockquote {
+	  border-left: 4px solid var(--accent-orange);
+  padding-left: 20px;
+  margin-left: 0;
+  color: var(--fg-dim);
+  font-style: italic;
+  background: var(--bg-medium);
+  padding: 15px 15px 15px 20px;
+}
+
+/* Lists */
+ul, ol {
+	  padding-left: 30px;
+}
+
+li {
+	  margin: 5px 0;
+}
+
+/* Horizontal rules */
+hr {
+	  border: none;
+  border-top: 1px solid var(--border-dim);
+  margin: 30px 0;
+}
+
+/* Footer */
+#footer {
+	  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-dim);
+  color: var(--fg-dim);
+  font-size: 0.85em;
+  text-align: center;
+}
+
+#footer a {
+	  color: var(--accent-aqua);
+}
+
+/* All posts / Archive page */
+#all_posts {
+	  list-style: none;
+  padding: 0;
+}
+
+#all_posts li {
+	  margin: 15px 0;
+  padding: 10px;
+  background: var(--bg-medium);
+  border-left: 2px solid var(--accent-blue);
+}
+
+#all_posts .date {
+	  display: inline-block;
+  min-width: 120px;
+  color: var(--accent-orange);
+}
+
+/* Tables */
+table {
+	  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+	  border: 1px solid var(--border-dim);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+	  background: var(--bg-light);
+  color: var(--accent-yellow);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+	  background: var(--bg-medium);
+}
+
+/* Images */
+img {
+	  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-dim);
+  border-radius: 3px;
+}
+
+/* Utility classes */
+.text-center {
+	  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	  body {
+	    padding: 10px;
+    font-size: 13px;
+  }
+  
+  h1 {
+	    font-size: 1.5em;
+  }
+  
+  #all_posts .date {
+	    display: block;
+    min-width: auto;
+  }
+}

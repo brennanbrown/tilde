@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "my bashblog posts\n"
+user=$(stat -c '%U' .)
+for post in $(ls -t *.md); do
+post=$(basename $post)
+echo -e "0$post\t/~$user/blog/$post\ttilde.club\t70"
+done
