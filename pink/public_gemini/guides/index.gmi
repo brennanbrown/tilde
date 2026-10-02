@@ -1,0 +1,20 @@
+# 🔮 Guides
+
+A small shelf of guides for getting around Geminispace.
+
+=> gemini://tilde.pink/~brennan/guides/gemini.gmi Beginner's Guide to Gemini
+
+What the protocol is, a little history, how it works, Gemtext syntax, browsers, and where to find things.
+
+=> gemini://tilde.pink/~brennan/guides/gemlog.gmi Guide to Blogging on Gemini
+
+Where to host a capsule, how to structure it, gemlog conventions, and extras like finger, favicon.txt, and CGI.
+
+=> gemini://tilde.pink/~brennan/guides/publishing.gmi My Capsule Publishing Workflow
+
+How a draft goes from my local editor to this capsule. How I stage locally, run rsync, and verify the deploy. 
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/ Back to home
+=> https://brennan.day Visit my website

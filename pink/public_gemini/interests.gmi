@@ -1,0 +1,92 @@
+```
+              .
+
+              |
+     .               /
+      \       I       A
+                  /
+        \  ,g88R_
+          d888(`  ).                   _
+ -  --==  888(     ).=--           .+(`  )`.
+)         Y8P(       '`.          :(   .    )
+        .+(`(      .   )     .--  `.  (    ) )
+       ((    (..__.:'-'   .=(   )   ` _`  ) )
+`.     `(       ) )       (   .  )     (   )  ._
+  )      ` __.:'   )     (   (   ))     `-'.:(`  )
+)  )  ( )       --'       `- __.'         :(      ))
+.-'  (_.'          .')                    `(    )  ))
+                  (_  )                     ` __.:'
+
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--.
+```
+
+# Interests
+
+Things I keep coming back to. Layperson enthusiasm in nearly all of these. Recommendations welcome!
+
+## Writing & Language
+
+* Creative nonfiction & literary journalism
+* Poetry (Imagists, 20th-century American, poetry in translation)
+* Learning French to read poetry untranslated
+* WritePads & distraction-free digital typewriters
+* Public domain work & remix culture
+* Microessays, commonplace books, & zines
+
+## The Small & Open Web
+
+* The IndieWeb (POSSE, webmentions, owning your domain)
+* Gemini, Gopher, Finger, & the oldnet/altnet
+* The decentralized web (Mastodon, Bluesky, ATproto)
+* Static site generators & progressive enhancement
+* Accessibility-first design
+* Digital third places & webmastering
+
+## Technology & Tools
+
+* Linux & ricing old ThinkPads (Debian-based, brutalist)
+* Self-hosting & homelabs
+* Mechanical keyboards
+* Retro handheld gaming & itch.io indies
+* Dumbphones, e-ink, & analog-leaning tech
+
+## Thought & Study
+
+* Religious studies (process theology, Mahayana Buddhism, Indigenous ways of knowing)
+* Philosophy, Western & Eastern (absurdism, bioethics, free will)
+* Cultural anthropology & the history of storytelling
+* Independent academic research & open scholarship
+* Mathematics & atmospheric oddities (sprites, elves, blue jets)
+* Mycology, decomposition as creation
+
+## Culture & Media
+
+* Arthouse, indie, & Canadian cinema
+* Animation (Adventure Time, BoJack, Smiling Friends)
+* Fandom, fanfiction, & transformative works
+* Coming-of-age & young adult narratives
+* Music as memoir (Sufjan Stevens, Bon Iver, the Mountain Goats)
+* Death culture & global rituals around mortality
+* Public libraries & third places
+
+## Living
+
+* Bullet journaling & analogue systems (Traveler's notebooks, cheap coil pads)
+* Walking & public transit
+* Veganism & plant-based living
+* Frugality & financial independence
+* Self-quantification & meta-learning
+* Slow living & intentional boredom
+
+## Community & Change
+
+* Activism, mutual aid, & pro bono work
+* Progressive, communist, & anarchist politics
+* Sustainability, ecology, & prairie landscapes
+* Disability justice & chronic illness advocacy
+* Decolonization & Métis identity
+
+------------------------------------------------------------
+
+=> https://brennan.day/interests The long version on the web
+=> gemini://tilde.pink/~brennan/ Back to home

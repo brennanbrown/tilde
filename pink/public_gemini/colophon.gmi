@@ -1,0 +1,52 @@
+```
+       ,.,
+      MMMM_    ,..,
+        "_ "__"MMMMM          ,...,,
+ ,..., __." --"    ,.,     _-"MMMMMMM
+MMMMMM"___ "_._   MMM"_."" _ """"""
+ """""    "" , \_.   "_. ."
+        ,., _"__ \__./ ."
+       MMMMM_"  "_    ./
+        ''''      (    )
+ ._______________.-'____"---._.
+  \                          /
+   \________________________/
+   (_)                    (_)
+   Corwyn Yasuo Miyagishima
+```
+
+# Colophon
+
+How this capsule is made.
+
+## Hosting
+
+This capsule lives on tilde.pink, a Gemini-only tilde server in the tildeverse, a loose collective of public Unix servers you can get a free home on. The files here are plain text written in Gemtext, served on port 1965.
+
+=> gemini://tilde.pink/ tilde.pink
+=> https://tildeverse.org/ The Tildeverse
+
+## Writing & Tools
+
+Posts are drafted in Markdown in Micro and Gram, and converted to Gemtext with a little tool I built, and then synced up to the tilde over ssh and rsync.
+
+=> https://gemtext.brennan.day My Markdown-to-Gemtext converter
+=> https://micro-editor.github.io Micro, a friendly terminal editor
+=> https://gram-editor.com/ Gram, a GUI code editor for humanoid apes and grumpy toads
+
+## Design
+
+Gemini doesn't allow CSS, JavaScript, images, or layout. Your client decides how everything looks, from fonts to colours. The only "design" here is the ASCII art and the words themselves.
+
+That means no cookies, no tracking, no analytics, no ads. I have no idea how many people read this, and I like it that way.
+
+## License
+
+Content on this capsule is available under CC BY-SA unless noted otherwise.
+
+=> mailto:mail@brennanbrown.ca Questions or corrections? Email me
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/ Back to home
+=> https://brennan.day Visit my website

@@ -1,0 +1,122 @@
+```ASCII Bookshelf
+             .--.           .---.        .-.
+         .---|--|   .-.     | A |  .---. |~|    .--.
+      .--|===|Ch|---|_|--.__| S |--|:::| |~|-==-|==|---.
+      |%%|NT2|oc|===| |~~|%%| C |--|   |_|~|CATS|  |___|-.
+      |  |   |ah|===| |==|  | I |  |:::|=| |    |GB|---|=|
+      |  |   |ol|   |_|__|  | I |__|   | | |    |  |___| |
+      |~~|===|--|===|~|~~|%%|~~~|--|:::|=|~|----|==|---|=|
+hjw   ^--^---'--^---^-^--^--^---'--^---^-^-^-==-^--^---^-'
+```
+
+# Beginner's Guide to Gemini
+
+Gemini is a modern, minimal Internet protocol, an alternative to https:// that requires its own browser. It was created in June 2019 by a pseudonymous developer named Solderpunk. It's simple enough to implement in a weekend, and modern enough to be encrypted by default.
+
+It has nothing to do with Google's AI or the cryptocurrency exchange. It's named after NASA's Project Gemini, the human spaceflight program between Mercury and Apollo. The bridge that made the moon landing possible. The protocol runs on port 1965 in its honour.
+
+## Why Gemini?
+
+* No JavaScript, no CSS, no cookies, no tracking pixels, no third-party resources. A Gemini capsule cannot phone home and surveil you.
+* No AI slop. There's no viable revenue model here and it's obscure. Only humans in this part of cyberspace.
+* Low-spec friendly. All you need is a terminal emulator, a network connection, and a TLS library. It runs on hardware from the 2000's.
+* A real focus on writing, since there's not even bold, italics, or inline images. There's only text and links, which forces you to focus on the craft.
+* Encrypted by default. TLS is mandatory on every connection.
+
+## A Little History
+
+Gemini is the third act in a longer lineage of alternative Internets:
+
+* Finger (1971): born at Stanford's AI Lab when users wanted to know who else was logged in. Runs on TCP port 79, serving your .plan and .project files. Arguably the first social media profile.
+* Gopher (1991): a hierarchical menu system built at the University of Minnesota that briefly competed with the World Wide Web as an equal. It lost when the university announced licensing fees in 1993. But it never died. As of January 2026 there are still ~400 active Gopher servers serving nearly six million selectors.
+* Gemini (2019): Solderpunk's response to watching people rediscover Gopher as a refuge from the modern web, adding encryption.
+
+## How It Works
+
+* A client connects to a server over TLS on port 1965
+* The request is a single URL terminated by a line break
+* The response is a two-digit status code, a MIME type, and the content
+* One request, one response, then the connection closes
+* Pages are written in Gemtext and served as text/gemini
+
+Gemini's specification is simple by design.
+
+## Gemtext
+
+Gemtext is line-oriented, the first characters of each line determine its type:
+
+```
+# Heading level 1
+
+## Heading level 2
+
+### Heading level 3
+
+* List item
+
+> Quoted text
+
+=> gemini://example.com A link text here.
+```
+
+Preformatted blocks are toggled with lines containing only ```.
+
+There's no nesting, no inline formatting, and no images. Think of it as an even simpler Markdown.
+
+=> gemini://geminiprotocol.net/docs/gemtext-specification.gmi The official Gemtext specification
+=> https://gemtext.brennan.day My Markdown-to-Gemtext converter
+
+## Pick a Browser
+
+Regular browsers can't render Gemini, so you'll need a dedicated client:
+
+=> gemini://skyjake.fi/lagrange/ Lagrange is the graphical client I recommend; the sidebar's "structure" view shows a capsule like a folder directory
+=> https://github.com/makew0rld/amfora Amfora is a great terminal-based option
+=> https://bombadillo.colorfield.space/ Bombadillo is a terminal "non-web browser" that also handles Gopher and Finger natively
+=> https://github.com/MasterQ32/kristall Kristall is cross-platform graphical client
+=> https://offpunk.net/ Offpunk is offline-first, caches everything you visit as plain text
+
+Most of these also speak gopher://, finger://, and spartan:// protocols
+
+## Finding Things
+
+=> gemini://geminiquickst.art/ Gemini Quickstart
+=> gemini://kennedy.gemi.dev Kennedy Search Engine
+=> gemini://kennedy.gemi.dev/archive/ Delorean Archive
+=> gemini://geminispace.info/ Gemini Search Engine
+=> gemini://tlgs.one/ TLGS, Another Search Engine
+=> gemini://medusae.space/ Medusae, a hand-maintained capsule directory
+=> gemini://gemini.thegonz.net/cdg/ Collaborative Directory of Geminispace
+=> gemini://fediring.net/ A Gemini webring
+=> gemini://fumble-around.mediocregopher.com Explore by fumbling around!
+
+### Aggregators
+
+Want to see what people are posting right now?
+
+=> gemini://warmedal.se/~antenna/ Antenna
+=> gemini://gemini.circumlunar.space/capcom/ CAPCOM
+=> gemini://skyjake.fi/~Cosmos/ Cosmos
+=> gemini://gemini.circumlunar.space/users/gemlog/ CircumLunar gemlog feed
+
+## Community
+
+Despite how minimal the protocol is, there are still social spaces:
+
+=> gemini://bbs.geminispace.org/ Gemini BBS, discussion, microblogging, and issue tracking
+=> gemini://station.martinrue.com/ Station, status updates and socialising for capsuleers
+=> gemini://astrobotany.mozz.us/ Astrobotany, a communal plant-growing game
+
+Registration works via TLS client certificates instead of passwords. Gemini has no cookies, so servers remember you by your certificate's fingerprint.
+
+## What Next?
+
+Browse around, find capsules you like, then make your own corner of Geminispace. A Gemini site is called a capsule, and a blog on one is called a gemlog.
+
+=> gemini://tilde.pink/~brennan/guides/gemlog.gmi Guide to Blogging on Gemini
+=> https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/ My full original essay on Gemini
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/ Back to home
+=> https://brennan.day Visit my website

@@ -1,0 +1,6 @@
+Contact: mailto:security@brennanbrown
+Contact: https://brennan.day/contact
+Expires: 2030-12-31T23:59:00.000Z
+Policy: https://brennan.day/privacy
+Preferred-Languages: en, fr
+Canonical: https://tilde.pink/~brennan/.well-known/security.txt

@@ -1,0 +1,194 @@
+```A sunset
+           ^^                   @@@@@@@@@
+      ^^       ^^            @@@@@@@@@@@@@@@
+                           @@@@@@@@@@@@@@@@@@              ^^
+                          @@@@@@@@@@@@@@@@@@@@
+~~~~ ~~ ~~~~~ ~~~~~~~~ ~~ &&&&&&&&&&&&&&&&&&&& ~~~~~~~ ~~~~~~~~~~~ ~~~
+~         ~~   ~  ~       ~~~~~~~~~~~~~~~~~~~~ ~       ~~     ~~ ~
+  ~      ~~      ~~ ~~ ~~  ~~~~~~~~~~~~~ ~~~~  ~     ~~~    ~ ~~~  ~ ~~ 
+  ~  ~~     ~         ~      ~~~~~~  ~~ ~~~       ~~ ~ ~~  ~~ ~ 
+~  ~       ~ ~      ~           ~~ ~~~~~~  ~      ~~  ~             ~~
+      ~             ~        ~      ~      ~~   ~             ~
+
+```
+
+A blog on a Gemini capsule is called a gemlog. This guide covers why you'd want one, where to host it, how the community's conventions work, and the amount of interactivity the protocol allows.
+
+## Why Blog on Gemini?
+
+* No technical complexity. No JavaScript or CSS, not even HTML. Everything is plain Gemtext, which is simpler than Markdown. You're compelled to focus on the craft of writing.
+* A smaller, more intentional audience. More privacy while still being public.
+* Low-spec friendly. A gemlog can be read and written entirely from a terminal, on hardware that can't handle the modern web.
+
+## Where to Host Your Capsule
+
+=> https://smol.pub SmolPub
+
+Publishes to https://, gemini://, and gopher:// simultaneously. Simple web interface, $5 for lifetime access.
+
+=> https://tildeverse.org/ The Tildeverse
+
+Public Unix servers with lots of features. Requires some knowledge of the terminal and ssh.
+
+=> gemini://tilde.pink/ tilde.pink
+
+Gemini-only tilde; you get a capsule automatically with your account (you're reading this on it!)
+
+=> gemini://tilde.town/ tilde.town
+
+Run `town request-gemini` to set up your capsule
+
+=> https://freeshell.org/ SDF/Freeshell
+
+Gives you a Gopherspace rather than a capsule
+
+=> https://flounder.online flounder.online
+
+Gemini-specific hosting (manual approval required)
+
+=> gemini://midnight.pub/ Midnight Pub
+
+Gemini-specific publishing (manual approval required)
+
+=> https://gemcities.com Gemcities
+
+Free, instant access, easy web interface.
+
+You can also host your own Gemini server on a VPS, there are plenty of resources on that, but it's outside the scope of this guide.
+
+## Structuring Your Capsule
+
+Less is more, here. All you need is a folder and some plain text files. A flat structure like so:
+
+```
+index.gmi    # the file served at your base URL (like index.html)
+about.gmi    # who you are
+now.gmi      # what you're currently up to
+hobbies.gmi  # what you're interested in
+links.gmi    # interesting non-https links you've found
+quotes.gmi   # quotes you want to keep and share
+gemroll.gmi  # other people's capsules you want to share
+gemlog/
+      index.gmi               # the root file of the gemlog
+      2026-09-15-thoughts.gmi # a blog post
+      2026-09-01-update.gmi   # another blog post
+```
+
+## Gemlog Conventions
+
+There's no official gemlog spec, but the community has settled on some norms:
+
+* File naming: dated posts, usually YYYY-MM-DD-slug.gmi, organized under a /gemlog/ or /posts/ directory.
+* Index page: a reverse-chronological list of posts as => links, each prefixed with the date:
+
+```
+# My Gemlog
+
+=> /gemlog/2026-09-15-thoughts.gmi 2026-09-15: Some thoughts
+=> /gemlog/2026-09-01-update.gmi 2026-09-01: An update
+```
+
+The YYYY-MM-DD date at the start of the link label lets Gemini clients and aggregators automatically detect and subscribe to new posts, no RSS required, though many gemlogs also publish an atom.xml for feed readers.
+
+By convention, a post's first line is a # heading used as its title when aggregated elsewhere.
+
+## Other Goodies for Your Capsule
+
+### Finger
+
+Most Gemini browsers also handle the older finger:// protocol. Add a finger link like any other:
+
+```
+=> finger://brennan@omg.lol Finger me for my current status
+=> finger://example.com/kenny .plan file
+```
+
+* .plan, your current status, what you're working on this week (the original microblog)
+* .project, a one-line "what is this account/person about"
+
+### favicon.txt
+
+There's a spec proposal for capsules to include a plain-text favicon.txt containing a single Unicode emoji.
+
+=> gemini://mozz.us/files/rfc_gemini_favicon.gmi The emoji favicon spec proposal
+
+### security.txt and robots.txt
+
+Good practice to include .well-known/security.txt, same as any website. Gemini also supports robots.txt, but since requests carry no user-agent string, the convention defines virtual user-agents by purpose:
+
+```
+User-agent: archiver
+Disallow: /private/
+
+User-agent: indexer
+Disallow: /drafts/
+
+User-agent: webproxy
+Disallow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+```
+
+### ASCII Art
+
+With only text to work with, ASCII art becomes your visual identity. There are text-to-ASCII generators, archives of existing art, and browser-based drawing tools. WikiHow even has a decent tutorial.
+
+```ASCII Art of a Beach!
+                                        |
+                                      \ _ /
+                                    -= (_) =-
+   .\/.                               /   \
+.\\//o\\                      ,\/.      |              ,~
+//o\\|,\/.   ,.,.,   ,\/.  ,\//o\\                     |\
+  |  |//o\  /###/#\  //o\  /o\\|                      /| \
+^^|^^|^~|^^^|' '|:|^^^|^^^^^|^^|^^^""""""""("~~~~~~~~/_|__\~~~~~~~~~~
+ .|'' . |  '''""'"''. |`===`|''  '"" "" " (" ~~~~ ~ ~======~~  ~~ ~
+ jgs^^   ^^^ ^ ^^^ ^^^^ ^^^ ^^ ^^ "" """( " ~~~~~~ ~~~~~  ~~~ ~
+```
+
+## Social Media and Interactivity
+
+Yes, Gemini has interactive sites! Gemini BBS, Station, and the Astrobotany plant game being the popular examples. They're built from a few small primitives:
+
+* A server can reply with status 10 (or 11 for sensitive input) plus a prompt; the client shows a single text field, and whatever the user types is URL-encoded and sent back as a query string.
+* Persistent state (no cookies, remember) is handled with TLS client certificates. A server responds with status 60 "certificate required," the client generates or presents one, and the server keys stored state to that certificate's fingerprint. That's how a capsule "remembers you" between sessions.
+
+=> https://git.sr.ht/~solderpunk/gemcert gemcert, Solderpunk's client certificate tooling
+
+### CGI Scripting
+
+No PHP or server-side JS, but old-school CGI works: your server runs a script and pipes its stdout to the client. The response is a status code and MIME type on the first line, a blank line, then the body:
+
+```Python
+#!/usr/bin/env python3
+print("20 text/gemini")
+print()
+print("# Hello!")
+print("Welcome to my little corner of Geminispace.")
+```
+
+Save it as hello.cgi, chmod +x it, and drop it in your server's cgi-bin. Servers like Jetforce pass request details via environment variables like QUERY_STRING and PATH_INFO is enough to build search boxes, guestbooks, and games.
+
+=> https://github.com/michael-lazar/jetforce Jetforce, the server behind Astrobotany
+
+## Getting Started Checklist
+
+1. Install a Gemini browser like Lagrange for GUI, Amfora or Bombadillo for terminal.
+2. Pick a host from the list above. Web interfaces (SmolPub, Gemcities) need no terminal skills, or tilde servers need ssh.
+3. If you've never made an SSH key pair, GitHub's guide to generating one is a good walkthrough even for non-GitHub use.
+4. Learn Gemtext, the spec is short, or use a Markdown-to-Gemtext converter.
+5. If you're editing over ssh, Micro is a friendlier terminal editor than vim or nano, with mouse support, ctrl+s to save, ctrl+q to quit.
+
+=> https://geminiprotocol.net/docs/gemtext-specification.gmi Gemtext specification
+=> https://gemtext.brennan.day My Markdown-to-Gemtext converter
+=> https://micro-editor.github.io Micro editor
+=> https://linuxcommand.org/lc3_learning_the_shell.php Learning the Shell
+=> https://missing.csail.mit.edu The Missing Semester of Your CS Education
+=> https://github.com/kr1sp1n/awesome-gemini Awesome Gemini (clients, servers, tools, everything)
+
+## One Last Thing
+
+Geminispace has nearly as many dead links as living ones, as there's real friction in adopting a different protocol. But that's also what makes it a peaceful, calm alternative to the modern Internet. It'll probably never "take off," and I'm fine with that.
+
+=> https://brennan.day/creating-a-blog-in-gemini/ My full original essay on Gemini blogging

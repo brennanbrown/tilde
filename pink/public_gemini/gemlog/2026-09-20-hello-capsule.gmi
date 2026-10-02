@@ -1,0 +1,19 @@
+# Hello, Capsule!
+
+Finally, my first blog post on my tilde.pink capsule. I've been writing about Gemini on my clearnet blog for months. I'm so fascinated by the history of the protocol, and I made a guide to building a low-spec daily Internet, as well as a long piece on how to blog in Geminispace.
+
+This capsule is where the Gemini-only writing lives now!
+
+If you're new to Gemini, the guides are the place to start:
+
+=> gemini://tilde.pink/~brennan/guides/gemini.gmi Beginner's Guide to Gemini
+=> gemini://tilde.pink/~brennan/guides/gemlog.gmi Guide to Blogging on Gemini
+
+The near-daily essays stay on the main site. Shorter, Gemini-native pieces will be here!
+
+=> https://brennan.day Brennan.day (my main site)
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/gemlog/ Back to the gemlog
+=> gemini://tilde.pink/~brennan/ Back to home

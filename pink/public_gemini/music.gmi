@@ -1,0 +1,103 @@
+```
+                !
+                |
+                |    |~/
+                |   _|~
+  .============.|  (_|   |~/
+.-;____________;|.      _|~
+| [_________I__] |     (_|
+|  """"" (_) (_) |
+| .=====..=====. |
+| |:::::||:::::| |
+| '=====''=====' |  jgs
+'----------------'
+```
+
+# Music
+
+Artists and albums in rotation, loosely by genre.
+
+## Indie Folk & Singer-Songwriter
+
+* Punisher by Phoebe Bridgers
+* Older by Lizzy McAlpine
+* Older (and Wiser) by Lizzy McAlpine
+* Carrie & Lowell by Sufjan Stevens
+* All For Something by Tiny Habits
+* Seven Swans by Sufjan Stevens
+* Carrie & Lowell Live by Sufjan Stevens
+* Transatlanticism by Death Cab for Cutie
+* Fruit For Flies by The Army, The Navy
+* The Avalanche by Sufjan Stevens
+* Illinois by Sufjan Stevens
+* The Sunset Tree by The Mountain Goats
+* Tallahassee by The Mountain Goats
+* All Hail West Texas by The Mountain Goats
+* Transcendental Youth by The Mountain Goats
+* Beat the Champ by The Mountain Goats
+* In League with Dragons by The Mountain Goats
+* The Fool by Ryn Weaver
+* Blood on the Tracks by Bob Dylan
+* Roman Candle by Elliott Smith
+* Either/Or by Elliott Smith
+* XO by Elliott Smith
+* Figure 8 by Elliott Smith
+* From a Basement on the Hill by Elliott Smith
+* Blue by Joni Mitchell
+* I'm Wide Awake, It's Morning by Bright Eyes
+* In the Aeroplane Over the Sea by Neutral Milk Hotel
+* Strict Joy by The Swell Season
+* Hospice by The Antlers
+
+## Post-Rock & Math Rock
+
+* The Unwavering Hand by Flawed Mangoes
+* Killswitch Melodies by Flawed Mangoes
+* Anomaly III by Flawed Mangoes
+* Anomaly IV by Flawed Mangoes
+* Happy Songs for Happy People by Mogwai
+* Acrostic by Yvette Young
+* Cordelia by Yvette Young
+
+## Midwest Emo
+
+* American Football (LP1) by American Football
+* American Football (LP2) by American Football
+* American Football (LP3) by American Football
+
+## Hip-Hop & R&B
+
+* The Life Of Pablo by Kanye West
+* My Beautiful Dark Twisted Fantasy by Kanye West
+* Blonde by Frank Ocean
+* Mr. Morale & The Big Steppers by Kendrick Lamar
+
+## Electronic & Hyperpop
+
+* hypochondriac by brakence
+* Worlds by Porter Robinson
+* James Blake by James Blake
+
+## Video Game Soundtracks
+
+* One by C418
+* Minecraft: Tricky Trials (Original Game Soundtrack) by Aaron Cherof
+* Music from Braid by Sieber, Kammen, Fulton and Schatz
+
+## Neoclassical & Chamber
+
+* Profondità by Giulia De Serio
+* Flying by Garth Stevenson
+
+## Musical Theatre
+
+* Hamilton by Lin-Manuel Miranda
+
+## Ambient & New Age
+
+Kazuhiro Hotaru, Enyaq, myndstream, Broken Peak, So Lis, Pillow Dalliance, Orvalis, Miravaldini, Spaced Out Dreams, Oliver The Penguin, Cosmazul, Digitalis, Ahti Aeo, La Kalon, Nadia Bulic, Ookean, DEX 1200, Neioh, Pause Infinite, Maurie, Decie Orion, Eieove, Mica & Tina
+
+------------------------------------------------------------
+
+=> https://brennan.day/canon/ My full canon on the web
+=> gemini://tilde.pink/~brennan/ Back to home

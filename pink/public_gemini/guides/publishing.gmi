@@ -1,0 +1,99 @@
+```
+.---..-----------------------------------------------..---.
+|   ||.---------------------------------------------.||   |
+| o ||| _0_o O/oo  _0_ \O/ _   _0_  O_0_o_O/ooO _0_ ||| o |
+| _ |||O oo _0_ _0_o\O  _O/~'       O oo__0_ _0_o\O ||| _ |
+|(_)|||_0_ \O oo        /)    _0_ \O_0_ \O oo       |||(_)|
+|   |||---------------------------------------------|||   |
+|.-.|||     __....------------------------....___   |||.-.|
+| o |||---''                         _.--._      `  ||| o |
+|`-'|||             _.--._          'O---O-'        |||`-'|
+|   |||     _.--._ 'O---O-'_.--._  _.--._           |||   |
+|.-.|||    'O---O-'       'O---O-''O---O-'          |||.-.|
+| O |||__,,...,----------------------....___        ||| O |
+|`-'||`---------------------------------------------'||`-'|
+`---'`-----------------------------------------------'`---'
+       _||_            It's Race Day            _||_
+MJP   /____\ unless you look like my teams car /____\
+                      get outta my face
+```
+
+# My Capsule Publishing Workflow
+
+This is how a piece of writing goes from being a draft on my laptop to published in my capsule.
+
+## 1. Draft
+
+Sometimes I write in the terminal, other times I use a IDE with a GUI:
+
+=> https://gram-editor.com/ Gram, my GUI editor of choice
+=> https://micro-editor.github.io Micro, for when I'm already in a terminal
+
+Posts are drafted in Markdown and converted to Gemtext with a tool I built. Pages meant only for the capsule get written in Gemtext directly.
+
+=> https://gemtext.brennan.day Markdown-to-Gemtext converter
+
+## 2. Stage Locally
+
+The capsule source lives in a git-tracked folder on my machine that mirrors the remote directory structure:
+
+```
+oldnet/pink/          →  ~/public_gemini/ on tilde.pink
+  index.gmi           →  gemini://tilde.pink/~brennan/
+  about.gmi           →  gemini://tilde.pink/~brennan/about.gmi
+  guides/index.gmi    →  gemini://tilde.pink/~brennan/guides/
+  gemlog/             →  dated gemlog posts
+  poetry/             →  Gemini-only poems
+```
+
+Because the local tree mirrors the remote one, a link that works locally works on the capsule.
+
+=> https://gitlab.com/brennankbrown/brennan.day/-/tree/main/oldnet/pink?ref_type=heads ⚗️ GitLab Repository
+
+## 3. Publish
+
+One command, which can be ran from anywhere:
+
+```
+rsync -avz --exclude='.DS_Store' ~/Projects/brennan.day/oldnet/pink/ tilde.pink:public_gemini/
+```
+
+The flags:
+
+* -a archive mode: recursive, preserves permissions and timestamps
+* -v verbose: lists every file transferred
+* -z compress: compresses during transfer
+* --exclude='.DS_Store': keeps macOS junk files off the server
+* The trailing slash on pink/ means "the contents of this folder," not the folder itself: without it you'd get public_gemini/pink/
+
+`tilde.pink` resolves through my ~/.ssh/config, which sets the username and identity key:
+
+```
+Host tilde.pink
+    HostName tilde.pink
+    User brennan
+    IdentityFile ~/.ssh/id_ed25519
+```
+
+Only changed files get transferred, so re-running the command after edits is fast and safe. I don't use --delete, so files that only exist on the server are never removed.
+
+## 4. Verify
+
+Opening the page in Lagrange is a quick check. But you can also run a raw protocol check without a client:
+
+```
+printf 'gemini://tilde.pink/~brennan/\r\n' | openssl s_client -connect tilde.pink:1965 -quiet -servername tilde.pink
+```
+
+A healthy capsule responds `20 text/gemini` followed by the page.
+
+## Conventions I Follow
+
+* New gemlog posts get a dated filename (YYYY-MM-DD-slug.gmi) and a dated entry at the top of gemlog/index.gmi, as that's what aggregators like CAPCOM and Antenna detect.
+* Every page gets a first-line # heading as its title.
+* Footers link back home on every page: => /~brennan/
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/guides/ Back to guides
+=> gemini://tilde.pink/~brennan/ Back to home

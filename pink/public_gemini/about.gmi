@@ -1,0 +1,71 @@
+```
+ (')) ^v^  _           (`)_
+(__)_) ,--j j-------, (__)_)
+      /_.-.___.-.__/ \
+    ,8| [_],-.[_] | oOo
+,,,oO8|_o8_|_|_8o_|&888o,,,hjw
+```
+
+# About Brennan Kenneth Brown
+
+## 📋 Quick Facts
+
+- Location: Calgary, Alberta, Canada (Treaty 7 territory)
+- Age: 30
+- Education: BA English (Honours) with minors in Creative Writing & Religious Studies
+- Writing: Published 9 books, 300+ articles since 2015
+- Focus: Creative nonfiction, lyric essays, digital culture, accessibility
+
+=> https://gemtext.brennan.day A markdown-to-gemtext converter/demaker I made!
+
+## 💼 What I Do
+
+### 📝 Writer First
+
+My centre is Brennan.day, where I write near-daily essays on writing craft, digital culture, and the independent web. I write at least 750 words every day, a 565-day streak and over 1,300,000 words journaled since 2011, and publish poetry on my longstanding BKpoetry.com Tumblr. I syndicate my essays to Medium.com behind a paywall, which is how I make a living.
+
+=> https://brennan.day My Writing on the Clearweb
+=> https://750words.com/person/brennan My 750words Profile
+=> https://bkpoetry.com My Poetry
+=> https://brennanbrown.gumroad.com/ My Chapbooks
+
+### 🍓 Founder of Berry House
+
+Berry House is the name I put my web development work under, a values-driven studio with the dual mission of corporate clients funding pro bono work for marginalized communities. In honesty, though: I started it expecting to do webdev for a living, and writing ended up taking centre stage instead. I don't have clientele these days, but I still do consultations pro bono when asked.
+
+=> https://berryhouse.ca Visit Berry House
+
+### 🌈 Webmaster of fanfiction.lol
+
+I'm the webmaster for fanfiction.lol, a self-hosted fork of Archive of Our Own running on my homelab, it currently has over 300 users and 400+ works.
+
+=> https://fanfiction.lol fanfiction.lol
+
+### 👥 Community Builder
+
+In 2022, I founded Write Club, a creative collective for writers that grew from one person to 100+ members over the three years I ran it. These days I'm an organiser for the Web Writers' Collective, and I keep up with the IndieWeb daily on the 32-bit Café, Bubbles.town, and omg.lol.
+
+=> https://writeclub.netlify.app Visit Write Club (archive)
+=> https://webwriterscollective.com Web Writers' Collective
+=> https://brennan.omg.lol My omg.lol page
+
+## 💻 Web Development Approach
+
+I build fast, accessible, content-first websites using static-site tooling. I care about:
+• Performance (sub-second load times)
+• Accessibility (A11y-first, WCAG 2.1 AA compliance)
+• Portability (plain text, version control)
+• Helping people own their digital presence
+
+## 🔗 Find Me Elsewhere
+
+=> https://brennan.day/accounts My Other Accounts
+=> https://cv.brennanbrown.ca My CV
+=> https://social.lol/@brennan Mastodon
+
+---
+
+=> https://brennan.day Main Site
+=> gemini://tilde.pink/~brennan/ Gemini capsule (tilde.pink)
+=> gemini://brennan.smol.pub/ Gemini capsule (smol.pub)
+=> mailto:mail@brennanbrown.ca Contact

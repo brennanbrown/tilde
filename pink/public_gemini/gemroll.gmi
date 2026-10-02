@@ -1,0 +1,109 @@
+```
+    __,  ,__        __,  ,__
+   (   )(   )      (   )(   )
+    \ (,,) /        \ (xx) /
+    / .  . \        / ,  , \
+   (  = ^ = )      ( = ^ =  )
+    )  `-  (        )  -'  (
+   (        )      (        )
+,_( \ \  / / )_,,_( \ \  / / )_,
+`----\_!!_/----'`----\_!!_/----'
+             ,~"~.
+            (~~~~~)  Valkyrie
+             ~._,~
+```
+
+# Brennan's Gemlog
+
+## Capsules of Interest
+
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/ solderpunk, creator of Gemini
+=> gopher://zaibatsu.circumlunar.space/1/~solderpunk/ solderpunk's Gopherhole
+=> gemini://athanasia.gemcities.com/ Athanasia
+=> gemini://balloon.fusen.nya.je/ Balloon/Fusen
+=> gemini://elektito.com/gemlog/ Elektito
+=> gemini://nytpu.com Nytpu
+=> gemini://sava.rocks sava.rocks
+=> gemini://mozz.us mozz.us
+=> gemini://cyberdreams.info CyberDreams
+=> gemini://gem.acdw.net ACDW's Gemini Cottage
+=> gemini://drewdevault.com/ Drew DeVault
+=> gemini://hexdsl.co.uk HexDSL
+=> gemini://gemini.lottalinuxlinks.com Lotta Linux Links
+=> gemini://pennywhether.xyz PennyWhether's Place
+=> gemini://gemini.circumlunar.space/users/hundredrabbits/ Hundred Rabbits
+=> gemini://gemini.circumlunar.space/users/laur%C3%AB/ Laurë's capsule
+=> gemini://skyjake.fi/ Skyjake, developer of Lagrange
+=> gemini://alexschroeder.ch/ Alex Schroeder
+=> gemini://freeshell.de/ JBanana
+=> gemini://gmi.bacardi55.io/ bacardi55
+=> gemini://warmedal.se/~bjorn/ ew0k
+=> gemini://taoetc.org Tao Etc
+=> gemini://caolan.uk/ Caolan
+=> gemini://adele.work Adele's capsule
+=> gemini://going-flying.com/~mernisse/ Mernisse
+=> gemini://tobykurien.com/ Toby Kurien's capsule
+=> gemini://friendo.monster/ Drew's capsule
+=> gemini://rawtext.club/~ecliptik ecliptik
+=> gemini://rawtext.club/~sloum/ sloum
+=> gopher://zaibatsu.circumlunar.space/1/~sloum/ sloum's Gopherhole
+=> gopher://gopher.black/ Tomasino's gopherhole
+=> gopher://box.matto.nl:70/1/ Matto's gopherhole
+=> gopher://tilde.pink/1/~bencollver/ bencollver's gopherhole
+=> gemini://tilde.cafe/~spellbinding/ ~spellbinding's word games
+=> gemini://corstar.flounder.online corstar
+=> gemini://subphase.xyz/index.gmi subphase
+=> gemini://pixeldreams.tokyo/ kyo
+=> gemini://tilde.pink/~kaction kaction
+=> gemini://sdf.org/clinquant/index.gmi clinquant
+=> gemini://tilde.pink/~ali ali
+=> gemini://devinprater.flounder.online devin
+=> gemini://vignette.kalasarn.se/ mmww
+=> gemini://republic.circumlunar.space/users/joneworlds/ joneworlds
+=> gemini://tanelorn.city/~vidak/ vidak
+=> gemini://tilde.town/~hush/ ~hush
+
+## Link curators
+
+These capsules maintain the collections many of the links here were found through. Thank you!!
+
+=> gemini://tilde.pink/~emily ~emily
+=> gemini://gemini.ctrl-c.club/~aesophod/ ~aesophod
+=> gemini://gemini.ctrl-c.club/~de_alchmst/ ~de_alchmst
+=> gemini://gemini.ctrl-c.club/~edisondotme/ ~edisondotme
+=> gemini://gemini.ctrl-c.club/~gzj/ ~gzj
+=> gemini://gemini.ctrl-c.club/~w3bk3rn3l/ ~w3bk3rn3l
+=> gemini://gemini.ctrl-c.club/~zenspace/ ~zenspace
+=> gemini://eluum.net/ eluum
+=> gemini://gmi.hedy.dev/ hedy
+
+## Active ~pink capsules
+
+=> gemini://tilde.pink/~johl ~johl
+=> gemini://tilde.pink/~kirch ~kirch
+=> gemini://tilde.pink/~lacour ~lacour
+=> gemini://tilde.pink/~m040601 ~m040601
+=> gemini://tilde.pink/~para ~para
+=> gemini://tilde.pink/~rebel1725 ~rebel1725
+=> gemini://tilde.pink/~ssb22 ~ssb22
+
+## Good Gemlogs
+
+=> gemini://degrowther.smol.pub/ Degrowther
+=> gemini://idiomdrottning.org/sub Idiomdrottning
+=> gemini://rawtext.club/~left_adjoint/ Left adjoint's free monoid microblog
+=> gemini://gemini.ctrl-c.club/~lettuce/ Lettuce Gemlog
+=> gemini://njms.ca/gemlog/ njms' gemlog
+=> gemini://officialdonut.smol.pub/ Official Donut of the Small Web
+=> gemini://ploum.net/index_en.gmi Ploum's English gemlog
+=> gemini://rawtext.club/~ploum/ Ploum's Offline Typewriter
+=> gemini://gemini.circumlunar.space/users/shufei/phlog/index.gmi Shufei's Gmiphlog
+=> gemini://gemini.circumlunar.space/users/shufei/phlog/Shufei-ThisAndThat-Weiphlog.gmi Shufei's Weiphlog
+=> gemini://arcanesciences.com/gemlog/ Sunset's gemlog
+=> gemini://rawtext.club/~winter/gemlog/ Winter's gemlog
+=> gemini://samsai.eu/gemlog.gemini Samsai's gemlog
+=> gemini://perso.pw/blog/ Solene's gemlog
+=> gemini://gemini.cyberbot.space/gemlog/ kelbot's gemlog
+=> gemini://carcosa.net/journal prothetic conscience, a comrade's gemlog
+=> gemini://zach.e-worm.club/ zach's frequently updated log
+=> gemini://gmi.noulin.net/feed.gmi Remy Noulin's tech articles

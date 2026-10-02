@@ -1,0 +1,151 @@
+``` ASCII ART
+         ,            __ \/ __
+     /\^/`\          /o \{}/ o\   If I had a flower for each time
+    | \/   |         \   ()   /     I thought of you, my garden
+    | |    |          `> /\ <`   ,,,     would be full...
+    \ \    /  @@@@    (o/\/\o)  {{{}}                 _ _
+     '\\//'  @@()@@  _ )    (    ~Y~       @@@@     _{ ' }_
+       ||     @@@@ _(_)_   wWWWw .oOOo.   @@()@@   { `.!.` }
+       ||     ,/  (_)@(_)  (___) OO()OO    @@@@  _ ',_/Y\,'
+       ||  ,\ | /)  (_)\     Y   'OOOO',,,(\|/ _(_)_ {_,_}
+   |\  ||  |\\|// vVVVv`|/@@@@    _ \/{{}}}\| (_)@(_)  |  ,,,
+   | | ||  | |;,,,(___) |@@()@@ _(_)_| ~Y~ wWWWw(_)\ (\| {{{}}
+   | | || / / {{}}} Y  \| @@@@ (_)#(_) \|  (___)   |  \| /~Y~
+    \ \||/ /\\|~Y~ \|/  | \ \/  /(_) |/ |/   Y    \|/  |//\|/
+bkb\ `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \\\\ |/,.\|/
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+```
+▛▀▖                   ▛▀▖             ▝▌   
+▙▄▘▙▀▖▞▀▖▛▀▖▛▀▖▝▀▖▛▀▖ ▙▄▘▙▀▖▞▀▖▌  ▌▛▀▖▝▞▀▘ 
+▌ ▌▌  ▛▀ ▌ ▌▌ ▌▞▀▌▌ ▌ ▌ ▌▌  ▌ ▌▐▐▐ ▌ ▌ ▝▀▖ 
+▀▀ ▘  ▝▀▘▘ ▘▘ ▘▝▀▘▘ ▘ ▀▀ ▘  ▝▀  ▘▘ ▘ ▘ ▀▀  
+▞▀▖       ▗    ▗  ▞▀▖            ▜     ▐   
+▌▄▖▞▀▖▛▚▀▖▄ ▛▀▖▄  ▌  ▝▀▖▛▀▖▞▀▘▌ ▌▐ ▞▀▖ ▐   
+▌ ▌▛▀ ▌▐ ▌▐ ▌ ▌▐  ▌ ▖▞▀▌▙▄▘▝▀▖▌ ▌▐ ▛▀  ▝   
+▝▀ ▝▀▘▘▝ ▘▀▘▘ ▘▀▘ ▝▀ ▝▀▘▌  ▀▀ ▝▀▘ ▘▝▀▘ ▝   
+```
+
+# 🌱 Brennan's Gemini Capsule
+
+Hi, I'm Brennan (he/they). Friends call me Kenny.
+
+I'm Queer, Red River Métis, and work as an author and web developer.
+I'm 30 years old, born in Winnipeg, Manitoba, and currently based in Mohkínstsis
+in Treaty 7 territory (Calgary, Alberta).
+
+## 🔮 Guides
+
+=> gemini://tilde.pink/~brennan/guides/gemini.gmi Beginner's Guide to Gemini
+=> gemini://tilde.pink/~brennan/guides/gemlog.gmi Guide to Blogging on Gemini
+=> gemini://tilde.pink/~brennan/guides/publishing.gmi My Publishing Workflow
+
+## 🗒️ Pages
+
+=> gemini://tilde.pink/~brennan/about.gmi 🎴 About Me
+=> gemini://tilde.pink/~brennan/links.gmi 🔖 Bookmarks
+=> gemini://tilde.pink/~brennan/interests.gmi 🌸 My Interests
+=> gemini://tilde.pink/~brennan/gemroll.gmi 🗞️ My Gemroll
+=> gemini://tilde.pink/~brennan/gemlog/index.gmi 📓 My Gemlog (blog)
+=> gemini://tilde.pink/~brennan/colophon.gmi 🔧 Colophon
+
+###✍️ Writing
+
+=> gemini://tilde.pink/~brennan/gemlog/index.gmi My Gemini-only Essays
+=> gemini://tilde.pink/~brennan/poetry/index.gmi My Gemini-only Poetry
+
+### 🗃️ Shelf
+
+=> gemini://tilde.pink/~brennan/books.gmi 📚 Books
+=> gemini://tilde.pink/~brennan/films.gmi 🎥 Films & TV
+=> gemini://tilde.pink/~brennan/music.gmi 🎵 Music
+
+## 🍀 My Accounts
+
+=> gemini://bbs.geminispace.org/u/brennan Gemini BBS
+=> gemini://station.martinrue.com/brennan Station
+=> gemini://astrobotany.mozz.us/public/98f417e845ee455b840b79c7da846a13/m1 Amanda, my plant
+=> gopher://tilde.town:70/1/~brennan/feels/ My Gopherspace Feels
+
+## 🛰️ Other Capsules
+
+=> gemini://brennan.gemcities.com My Gemcities capsule
+=> gemini://tilde.pink/~brennan My tilde.pink capsule
+=> gemini://brennan.smol.pub My smol.pub capsule
+
+## ☝️ Finger
+
+=> finger://omg.lol/brennan Finger me!
+=> gemini://tilde.pink/~brennan/.plan .plan (current status)
+=> gemini://tilde.pink/~brennan/.project .project (one-line bio)
+=> gemini://tilde.pink/~brennan/.finger .finger (finger card)
+
+## 📬 Contact
+
+=> mailto:mail@brennanbrown.ca Email
+=> xmpp:brennan@omg.lol XMPP
+
+## My Identity Certificates
+
+My current identity certificate (since 2026-09-24):
+
+SHA-256 fingerprint:
+A5:53:3C:75:FB:06:DB:43:F7:94:14:6B:71:97:9F:85:2E:BC:26:2E:BD:1C:16:EC:5F:95:D4:36:1C:D0:91:A3
+
+```Current certificate (2026-09-24)
+-----BEGIN CERTIFICATE-----
+MIICoTCCAYkCCBXvDnu49a0dMA0GCSqGSIb3DQEBCwUAMBIxEDAOBgNVBAMMB0Jy
+ZW5uYW4wIBcNMjYwOTI0MDUwNDQ0WhgPOTk5OTEyMzEyMzU5NTlaMBIxEDAOBgNV
+BAMMB0JyZW5uYW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCaB9jz
+nHy/qyIl8rB9H/HLNBYIVHmvxz9iD/7A0UNr7V3nwRdE0pKREf1PK8RV+yZbFqPA
+I4ZcvVG08Slkl7c3PJscqbKu5QKfmcQAmy6Uq3WGYHvT1OLst7CficSMmjfUyLB9
+JtRX//uxtLx7nExwhnUaatZTGuvCK/NsFyU67pU3O2Z6bk6UV7cPxJ0D8HhOwK5n
+5apQzHzVJRsRE1DIRtpTbwP1Q37SBcA8gjvvgH8w15z/T094+yTteQi/aY11TcKo
+qY/1p8cpcn3w+pBM8rrQMiCY6/x1b1UPDQZRev7qNdWo8UM+P487Z2qgUIg94sGO
+5RGzVnkZ7aG9DVAXAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFyGMBuVi5kz/GU+
+SKngDJZPF7/MZeMaevNzgWgun4wIu86qiZ6WrqwgTqyDnPyqsAYHqT2dAfbVag25
+ILgjVR39rNVD5sfYCBwyVuq8j+MZGk0J7DTT6AOEqxNNFLXMi6dZ261NfpLG6BG9
+fE3v3rISO9LPCKj96jy24vb7XKnRrfi+9dDHb6hRt3t83nHHzcX3dvWVOsFiKR6k
+ff9QCLH6XGDgNbWYiufsM843Spy7FTOuNG8quW5zVf1iGjzg4z9j/whX8qL6qTNc
+vslgIOSBkJlYn1GFA4vws099YaRno1XcjJldoIeXGjhpCF+rlg6dnhpqXaaSkDel
+NjnqTTU=
+-----END CERTIFICATE-----
+```
+
+The certificate below is retired. Its private key was destroyed in a device
+crypto-erase on 2026-09-23. It's kept here for verification and history only.
+
+```Retired certificate (private key destroyed 2026-09-23)
+-----BEGIN CERTIFICATE-----
+MIICojCCAYoCCQCvf2piFXyL9jANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdi
+cmVubmFuMCAXDTI2MDkxNzIzMzcwNVoYDzk5OTkxMjMxMjM1OTU5WjASMRAwDgYD
+VQQDDAdicmVubmFuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ejF
+Fzh8Lk/tltvGY3Zkf5mo2bl1SB7JIX538n+3AS6lDaC8rCnonoLhVutiWqpJUpvq
+3m6SOqMrgUb/sEBTPKW6xZcHr0kyG1xQcT82i84+miRy7b+2HXWMIBKI4siJcMSg
+GjieRPPgMZuv9q7bOtBxMxpsrM04Vgf7bny6JCNLPv5Z21ePo/DeBlMjM7poJ/yH
+ZdVaoDXnqeKZlVV6MABo0NQAEYnHHSf6atLFcEe3vfB3RyvBS2a5m1LdD04mIhwj
+dZicB7t53SSFZ/NxDpG2UWBmwmd9D/n0ocHWuJ/F4oiuIECN0w9d2x/WuNR5F+Ha
+5kc6jJbsUTfoHZlXYwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDg1GqwitkN3sFf
+37J4pPs254qo4CAyGRvkoKNf/iYtrqsYZ1tP3qdINfGRfYFMUp7M1LzFF3Vzb459
+VMpssCExS4in4GPXF+wqV7zWnM9YKd7tbufr+Y/6QBkeqsC7sPjTy3sk+aEQw8hs
+nd7tqwy1RKnCsBdicPPsWdMqMlMaaPGPQzEZh+iJLolcdTF8WC2Bg7WsA1ohEwyq
+QbKg7bloYCI5KqPJD755LD8eU2Pwy8ZwsVJ0nSsHTrW9xYbCDquzCO6dxBvO81wZ
+WrsOpMy2PDXryy3PuYuE0zHy+NGWunerH3VI04I9xmnsUwTVWboyJahLru6p5Ixy
+jND6ysb7
+-----END CERTIFICATE-----
+```
+
+---
+
+Free Palestine. Black Lives Matter. Slava Ukrani. Stop AAPI Hate.
+Queer & Proud. Good Cops Quit. Abolish ICE. Protect All Transfolk.
+Legalize All Sex Work. Liberate All Animals. Stop Eating Meat.
+Land Back Now. Housing Is A Right. Disability Justice Now.
+Recognize the Chronically Ill. Abolish All Prisons.
+Stop the Rohingya Genocide. Free Hong Kong & Taiwan.
+Liberate Sudan & Congo. Free Tigray & Kashmir.
+Love Always Wins.
+
+Writing 🄯 Brennan Kenneth Brown 2026 Creative Commons Attribution-ShareAlike 4.0 International
+Replicating, remixing, redistributing, and stealing this page and its contents is permitted and encouraged.

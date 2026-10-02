@@ -1,0 +1,60 @@
+```
+::::==========:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::=========::::::.---------------.:::::::::::::::::::::::::::::::
+:::=============::::::| .-----------. |:::::::::::::::::::::::::::::
+::::==========::::::::| | === == == | |:::::::::::::::::::::::::::::::::
+::::==========::::::::| | 260 ED OO | |:::::::::::::::::::::::::::::::
+:::::::=========='::::| |  urgent!  | |:::::::::::::::::::::::::::::
+:::===========::::::::| |___________| |::::::((;):::::::::::::::::::::
+""""============""""""|___________oo__|"")"""";(""""""""""""""""""""""
+  ==========='           ___)___(___,o  (   .---._
+     ===========        |___________| 8  \  |TEA|_)    .+-------+.
+  ===========                     o8o8    ) |___|    .' |_______| `.
+    =============      __________8___    (          /  /         \  \
+ |\`==========='/|   .'= --------- --`.   `.       |\ /           \ /|
+ | "-----------" |  / ooooooooooooo  oo\   _\_     | "-------------" |
+ |______I_N______| /  oooooooooooo[] ooo\  |=|     |_______OUT_______|
+                  / O O =========  O OO  \ "-"   .-------,
+                  `""""""""""""""""""""""'      /~~~~~~~/
+_______________________________________________/_   ~~~/_______________
+hjw.......................................... \/_____/..desk at 17:30..
+```
+
+# 🌌 Interests
+
+The topics I write about, organized as collections on my main site. These links go to the clearnet HTTP, and will open in a regular web browser.
+
+=> https://brennan.day/collections/ All Collections
+
+=> https://brennan.day/collections/personal-favourites/ Personal Favourites: A curated selection of my best and most beloved work across all genres and topics.
+
+=> https://brennan.day/collections/writing-craft/ Writing Craft: Essays on the art and practice of writing. Technique, process, and the life of a writer.
+
+=> https://brennan.day/collections/indieweb/ IndieWeb: Building and living on the independent web. Personal sites, protocols, principles, and digital ownership.
+
+=> https://brennan.day/collections/community/ Community: On belonging, connection, and the power of people coming together, both online and off.
+
+=> https://brennan.day/collections/technical-tutorials/ Technical Tutorials: Step-by-step guides for building things on the web and working with developer tools.
+
+=> https://brennan.day/collections/politics/ Politics: Commentary on power, justice, and the political forces shaping our world.
+
+=> https://brennan.day/collections/culture/ Culture: Critical takes on film, television, music, and the art we consume together.
+
+=> https://brennan.day/collections/lyric-essays/ Lyric Essays: Essays that blur the line between prose and poetry. Fragmentary, associative, and deeply personal.
+
+=> https://brennan.day/collections/ai/ AI: Reflections on artificial intelligence, machine learning, and what it means to be human in an age of thinking machines.
+
+=> https://brennan.day/collections/history/ History: Essays on the past and events, figures, and movements that shaped the world we live in today.
+
+=> https://brennan.day/collections/science/ Science: Explorations of scientific discovery, research, and the natural world, ranging from physics to biology to astronomy.
+
+=> https://brennan.day/collections/indigenous/ Indigenous: Writing on Indigenous identity, Métis heritage, Treaty 7 territory, and sovereignty and resurgence.
+
+=> https://brennan.day/collections/religion/ Religion: Essays on faith, spirituality, religious traditions, and the search for meaning.
+
+=> https://brennan.day/collections/french/ French: Culture, littérature et mon parcours avec la langue française.
+
+------------------------------------------------------------
+
+=> gemini://tilde.pink/~brennan/ Back to home
+=> https://brennan.day Visit my website
