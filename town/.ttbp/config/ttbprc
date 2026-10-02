@@ -1,0 +1,10 @@
+{
+  "editor":"micro",
+  "gopher":true,
+  "html":false,
+  "pager":"",
+  "post as nopub":false,
+  "publish dir":"blog",
+  "publishing":true,
+  "rainbows":true
+}

@@ -1,0 +1,20 @@
+# Lists you're subscribed to! Each list goes on a new line.
+# You can find mailing lists to subscribe to by running:
+#   $ ls /town/list/archive
+# You can also view the archives from before you subscribed, e.g.:
+#   $ mutt -f /town/list/archive/announce
+# You can create a new list by sending something to list+mylist@tilde.town.
+# List names can only contain lowercase letters, numbers, and underscores.
+#
+# For more info check out:
+# https://tilde.town/wiki/socializing/mailing-lists.html
+#
+# NOTE: subscriptions are updated once an hour, so you won't start receiving
+# new emails right away!
+
+# Read-only list for major town announcements
+announce
+# Discussion about the town itself
+meta
+# Discussion of any topic (say hi!)
+town

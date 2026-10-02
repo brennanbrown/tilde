@@ -1,0 +1,22 @@
+welcome, brennan! we're glad you're here
+
+it's Wed Jan 14 08:08:52 PM UTC 2026 and you are now a member of tilde.town.
+
+here is a poem:
+
+ It has come and gone
+ he cut a thick slice from his loaf
+ stopped when his father stopped
+
+some next steps if you wanna, no pressure:
+- run 'town chat'. this lets you chat in real time with other town members.
+- run 'town mail'. this will let you set up local emailing. try emailing
+vilmibm@tilde.town
+- run 'town feels'. set up a little town blog and say hi to your neighbors.
+- run 'town writo'. draw a little something.
+- run 'town poem'. get a poem.
+
+you can run 'town -h' to see other tilde town commands.
+
+see you around~
+

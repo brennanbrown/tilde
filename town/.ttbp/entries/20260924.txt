@@ -1,0 +1,120 @@
+# Thursday, September 24th, 2026
+
+Yesterday, I woke up to my MacBook being completely wiped. [I documented
+the saga on my
+Mastodon](https://social.lol/@brennan/117321965668058360).
+
+It turned out to be my fault, as my ex-partner had her account still on
+my laptop that I forgot about, and she says that while she was trying to
+remove my device off of her iCloud, the wipe happened.
+
+I am surprised that Apple had no record of this. You'd think that once
+they ran the serial number of the device, they could have seen a wipe
+happened, but no. It turns out if there are multiple iCloud accounts on
+an Apple device, one can wipe it without the other receiving any
+notification.
+
+But that's okay. I only lost a couple untracked/uncommitted web
+projects, like a new Hugo theme. And I lost one SSH key but I have
+multiple others saved on my Homelab that I was able to transfer over.
+The biggest loss was probably my Gemini certificates lol, but I've
+already recovered my BBS account. Everything else is online or a git
+repository. I also took the efforts to make much more comprehensive and
+redundant backups, too.
+
+The biggest drawback is that I'm now on MacOS 27 Golden Gate instead of
+Sequoia, lol. I'm joking, the cosmetic changes are worse, but if you
+turn off all the transparency and have a black wallpaper you don't
+really notice.
+
+Anyways, if that was the end of it I wouldn't be writing this.
+Unfortunately, something *else* weird happened today.
+
+I am almost always on omg.lol's IRC. I love the community and having a
+place to socialize after deleting Discord. Here are the logs in
+question:
+
+```bash
+\#general (+Cnt) @ irc\_social\_lol - 478 users  
+  
+MOTD Updated! Type \`/motd\` or \`/quote motd\` to read the latest news. | Welcome to \#general,  
+the open topic channel | Try /LIST to find other channels | (◕‿◕)♥  
+  
+05:36 brennan.day (brennan) lol 7 of my blog posts are now on google scholar for some reason  
+https://scholar.google.com/scholar?  
+hl=en&as\_sdt=0,5&q=site:brennan.day&btnG=  
+05:44 lachesis brennan: rogue scholar turned google scholar  
+05:46 \* Connection to server lost (ping timeout)  
+05:46 \* Connection to server restored  
+06:02 brennan.day (brennan) https://boards.4chan.org/pol/  
+06:05 neatnik uhh  
+06:06 lachesis christ that board is radioactive  
+06:06 lachesis well always has been but i've never looked much and if i have it's morbid  
+curiosity  
+06:13 robb (robb) Why even waste time looking at 4chan? Why link it?  
+\[2\] \[+\]  
+06:14 \* Connection to server lost (Connection reset by peer (os error 54))  
+06:14 \* Connection to server restored  
+06:17 brennan.day (brennan) test  
+06:17 brennan.day (brennan) i did not write that out nor did i send that message  
+06:17 skippy too shitty; won't click.  
+06:17 \* brennan has userhost ~u@0abnutqfasesc.omg and real name 'Brennan'
+```
+
+As you can see by the connection resets, my Internet is awful sometimes.
+I was waiting for a webpage to load, knowing Halloy would be
+disconnected and reconnected, but then I checked Halloy and there was a
+message from me that I have zero recollection of.
+
+Now, I'm not one that is afraid of getting egg on my face. If I
+accidentally pasted a link to /pol/ into chat, I'd apologize and I'd own
+it. I mean, honestly I visited weird websites all the time. But I
+didn't.
+
+The lovely sysadmin Adam checked the IP logs, and thankfully it turned
+out the message was sent from my IP. This rules out a rogue hacker
+stealing my IRC credentials.
+
+But then... what did happen?
+
+I checked everything. I used curl and other terminal commands to parse
+every webpage I had opened for a link to /pol/ to see if I had
+accidentally copypasted a link. I was searching up stuff related to the
+Tumbler Ridge terrorist attack and the racist backlash/review bombing
+Maitreyi Ramakrishnan has been getting just for identifying as a Tamil
+Eelam woman. And you'd think "oh, okay, that explains that then." But it
+doesn't. Despite the topics, there was still no links to /pol/.
+
+And, really, that makes sense. Who the fuck still uses 4chan still? Let
+alone /pol/. It's such old news. And the link itself is so weird,
+because it explicitly links to the board subdomain, but not to a
+specific thread.
+
+It's baffling, but I don't think I'm compromised. Since omg.lol's IRC
+uses SASL and the IP was identical to mine, an attacker would either
+have to go to great lengths to spoof my address or have a RAT installed
+on this MacBook which, may I remind you, was totally wiped yesterday.
+
+I don't have Halloy or IRC on any other device, I just changed my IRC
+password. I don't have a bouncer.
+
+Now, I am directly port forwarding my IP address, and even though I
+checked inbound/outbound records and found nothing, there could be
+something nefarious going on.
+
+But again, I really doubt it. Sure, 4chan is cringe but it's a far more
+harmless link than to something \*actually illegal or specific. Maybe
+you could interpret it as a warning shot, or something deliberately
+doing something benign to fuck with me in a subtle way. And I think
+because I don't have 100% certainty, it's those possibilities that drive
+me the most crazy.
+
+Anyways, all of this is to say that you should not DM or private message
+me anything sensitive or personal. Do not click any links I send you.
+Probably nothing is going on, and I'm just an idiot, but I am also aware
+that I've been actively protesting against fascism, and that's gotten
+hundreds of thousands of views on Twitter by people who think I'm a
+puritanical SJW clown.
+
+I am unafraid and will not stop. I will annoyingly persist. I shall not
+go gently into that good night.

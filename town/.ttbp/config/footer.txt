@@ -1,0 +1,59 @@
+<!-- ~brennan's tilde.town footer -->
+
+<h2><a href="https://tilde.town/~brennan/">← Back to Homepage</a></h2>
+
+<div class="ascii-frame">
+<pre>
+╔══════════════════════════════════════════════════════════════╗
+║  "The web is more a social creation than a technical one."   ║
+║                     — Tim Berners-Lee                        ║
+╚══════════════════════════════════════════════════════════════╝
+</pre>
+</div>
+
+<!-- Community links -->
+<div class="section">
+<h2 class="header">🌐 tilde.town community</h2>
+<div class="links">
+<div class="link-item">• <a href="https://tilde.town/">tilde.town home</a></div>
+<div class="link-item">• <a href="https://tilde.town/~tunas/">~tunas</a> 
+	• <a href="https://tilde.town/~vilmibm/">~vilmibm</a> • <a href="https://tilde.town/~fruit/">~fruit</a></div>
+<div class="link-item">• <a href="https://tilde.town/wiki/">town wiki</a></div>
+<div class="link-item">• <a href="https://tilde.town/~nbsp/">~nbsp</a></div>
+<div class="link-item">• <a href="https://tilde.town/~elly/">~elly</a></div>
+</div>
+</div>
+
+<!-- IndieWeb webring -->
+<div class="box">
+<p><strong>🔗 IndieWeb neighbors:</strong> <a href="https://indieweb.org/">IndieWeb</a> 
+	• <a href="https://webring.xxiivv.com/#brennan">XXIIVV webring</a> • <a href="https://xn--sr5h.com/">🕸️💍 ring</a></p>
+</div>
+
+<!-- Terminal signature -->
+<div class="footer">
+<pre>
+$ whoami
+brennan
+
+$ uptime
+12 days, 13:37, 42 users, load average: 0.42, 0.69, 0.42
+
+$ fortune
+"The only way to learn a new programming language is by 
+writing programs in it."
+                 — Dennis Ritchie
+
+$ exit
+logout
+
+---
+Built with love on Treaty 7 territory • Powered by Linux
+<p>📧 <a href="mailto:mail@brennanbrown.ca">mail@brennanbrown.ca</a> • <a href="xmpp:brennan@omg.lol">xmpp:brennan@omg.lol</a></p>
+<p>Last updated: <script>document.write(new Date().toISOString().split('T')[0]);</script></p>
+</pre>
+</div>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+# Friday, April 24th, 2026
+
+The fortitude of the wamus I wear in winter.
+
+Hey there. It's been awhile, hasn't it? I apologize for not writing in this cute little journal for quite awhile. I would really be kicking myself if I wasn't writing in the past few months, but I have been writing the most I've ever been in my entire life. 
+
+I really enjoy this kind of procrastination / putting things off. When I am not doing non-urgent work because I am doing urgent work. Much more forgivable. Of course, I do want to be writing here. It is quiet and cozy and I really enjoy the feels engine. 
+
+I just connected to tilde.town via ssh for the first time in months, and my inbox is full! I wish I was better at the shortcut commands, I feel like such a zoomer not knowing how to navigate, but it is really good practice for terminal use.
+
+I need to install Linux on my main desktop. I'm sick of using Windows 11, it's awful and the only reason I still have it is because of proprietary software and video games. These really are not good reasons at all. Plus, the new LTS version of Lubuntu just came out and I want to be using that. Good timing. 
+
+So, what else is going on in my life? Honestly, I don't think that much. I am single now, focusing most of my effort on writing. My independent publication has been growing! One of my articles was curated by Medium's Staff Picks a couple weeks ago. I'm really proud of myself. 
+
+I'm slowly beginning to turn my work into a book of essays. It's tricky because I'm writing every day, and I never feel as though I can just put what I have into a book, I always want to add the tomorrow's essay.  
+
+I'm going to Winnipeg with Byron in about a week. It'll be nice to see our dad after around five years, but I am anxious. I haven't been going out in general a lot recently, not nearly as much as I should be. Despite my success and productivity, there is a small part of my psyche that feels as though it is destroying itself. On the run from the gasoline puddle rainbows into dark quiet. 
+
+My anxiety is practically non-existent. I am worried about an abstract future that doesn't really exist anymore. It is silly, not something that I actually need to worry about.
+
+Oh, we had the worst winds in Calgary's history today. 90 km/hr, so fierce that they knocked down a tree and we were without electricity for about an hour. I had plenty of devices with battery so I wasn't too concerned. In a weird way, I enjoy limitations like that. Of course, you know that. That's exactly why I like writing journal entries here. 
+
+I need to work on my media diet. I have been passively watching MasterChef USA in the background as I do my work, but then I don't actually really focus on anything. Having multiple screens playing at the same time is just a numbing overstimulation. A blockage from thinking deeply. I don't know why I do this to myself. To pass the time? 
+
+I'm so thankful the days are getting longer. Even when the sky is grey and moody and the winds are loud and louder. I changed the layout of my bedroom and now my main desktop is right beside the window, so I can see outside as I work. Even though I don't ever really work there. I'm nearly always on my laptop on my bed or on the couch. Silly me.
+
+I've been thinking about the UI/UX of my writing experience. There is something I just do not enjoy about 750word's layout. I don't know how to exactly put my finger on it. I don't even know if there is a writing app or software or site that I do enjoy using at this point. I think Sublime Text with the gruvbox theme is actually really nice. I need to customize that, I think. I really like having colourful syntax, and I want to expand and extend what already exists. But I also really enjoy serif fonts, and you can't really have those in an IDE (I actually used to work with EB Garamond in Geanie, it was kind of sacrilege but really enjoyable. Even the ligatures worked properly. Hehe.)
+
+Anyways, that's all for now. Oh, it's yusha's birthday today. Happy birthday! :)
