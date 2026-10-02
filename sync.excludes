@@ -1,0 +1,3 @@
+# rsync exclude patterns, not worth transferring (also gitignored)
+.cache/
+.emacs.d/eln-cache/

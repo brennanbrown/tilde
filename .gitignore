@@ -1,0 +1,38 @@
+# Credentials & secrets
+**/.ssh/
+**/.gnupg/
+**/.keychain/
+**/.google_authenticator
+**/.alpine.passfile
+**/.alpine-smime/
+**/.twurlrc
+**/.bbjrc
+**/.bink/
+**/sec.conf
+**/irc.conf
+**/.irssi/
+**/.dovecot.svbin
+**/*.passfile
+**/identity.pem
+**/.pinerc
+
+# Mail
+**/mbox
+**/mail/
+**/Mail/
+**/.mail/
+
+# Logs & shell history
+**/.bash_history
+**/.history
+**/.lesshst
+**/.zcompdump
+**/*.weechatlog
+**/weechat.log
+**/output.log
+**/.local/state/
+
+# Caches & generated junk
+**/.cache/
+**/eln-cache/
+
