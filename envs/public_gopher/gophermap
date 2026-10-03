@@ -1,0 +1,9 @@
+=/usr/bin/figlet -f smslant "$(stat -c '%U' "$(pwd)")"
+i	null.host	1
+ithis is my gopher page.	null.host	1
+i	null.host	1
+ithere are many like it, but this one is mine.	null.host	1
+i	null.host	1
+1back to envs.net	/
+i	null.host	1
+*

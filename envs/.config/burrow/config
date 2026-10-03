@@ -1,0 +1,28 @@
+config_dir_gopher="$HOME/public_gopher/"
+
+config_gopher_server="envs.net"
+config_gopher_port="70"
+config_gopher_root="/~$USER/"
+
+config_dir_phlog="phlog"
+config_phlog_gophermap=true
+config_phlog_usedate=true
+config_phlog_autorss=false
+
+config_dir_recipebox="recipebox"
+config_recipebox_gophermap=false
+config_recipebox_usedate=false
+
+config_dir_topics="topics"
+config_topics_gophermap=true
+config_topics_usedate=false
+
+config_git_commit=false
+config_git_push=false
+
+config_autoindent=true
+
+config_file_rss="rss.xml"
+config_gopher_name="$USER's gopherhole"
+config_gopher_desc="this is my gopherhole"
+config_rss_num_entries="10"
