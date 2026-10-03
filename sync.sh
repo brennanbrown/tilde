@@ -7,6 +7,12 @@ cd "$(dirname "$0")"
 rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.town:~/ town/
 rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.pink:~/ pink/
 rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.club:~/ club/
+# cosmic's ~/ships entries are symlinks into /var/gopher (the QEC relay
+# tree); the symlink is excluded and its target is pulled as a real dir.
+rsync -az --timeout=60 --delete --exclude-from=sync.excludes --exclude=/ships/ brennan@cosmic.voyage:~/ cosmic/
+rsync -azL --timeout=60 --delete brennan@cosmic.voyage:~/ships/Genawaaboonagak/ cosmic/ships/Genawaaboonagak/
+rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@envs.net:~/ envs/
+rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.green:~/ green/
 
 # SDF does not permit rsync for this account class; pull via tar over SSH.
 # ~/gopher and ~/html are symlinks outside $HOME — their real contents are

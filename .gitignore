@@ -15,6 +15,7 @@
 **/*.passfile
 **/identity.pem
 **/.pinerc
+**/.muttrc
 
 # Mail
 **/mbox
