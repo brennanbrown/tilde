@@ -101,4 +101,5 @@ fi
 
 # change as desired...
 export EDITOR=/usr/bin/micro
+export VISUAL=/usr/bin/micro
 export TZ='America/Edmonton'

@@ -5,7 +5,7 @@
 ulimit -c 0
 
 # Environment variables. These could go in .profile if you prefer
-export VISUAL=vi
+export VISUAL=/usr/bin/micro
 export EDITOR=$VISUAL
 export PAGER=less
 export GZIP=-9

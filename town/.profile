@@ -22,3 +22,6 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 if [ -f ~/.newuser ]; then
   /town/bin/welcome
 fi
+
+export EDITOR=/usr/bin/micro
+export VISUAL=/usr/bin/micro
