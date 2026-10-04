@@ -10,3 +10,5 @@ then
     PATH="$HOME/.local/bin:$PATH"
 fi
 export PATH
+export EDITOR=/usr/bin/micro
+export VISUAL=/usr/bin/micro
