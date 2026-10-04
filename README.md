@@ -29,10 +29,10 @@ directories (or the equivalent web/gopher space). Syncs are
 | [`town/`](town/) | tilde.town | `brennan` | https://tilde.town/~brennan |
 | [`pink/`](pink/) | tilde.pink | `brennan` | gemini://tilde.pink/~brennan |
 | [`club/`](club/) | tilde.club | `brennan` | https://tilde.club/~brennan |
-| [`sdf/`](sdf/) | sdf.org | `bren` | https://bren.sdf.org |
-| [`cosmic/`](cosmic/) | cosmic.voyage | `brennan` | https://cosmic.voyage/~brennan |
-| [`envs/`](envs/) | envs.net | `brennan` | https://envs.net/~brennan |
 | [`green/`](green/) | tilde.green | `brennan` | https://tilde.green/~brennan |
+| [`sdf/`](sdf/) | sdf.org | `bren` | http://bren.sdf.org |
+| [`cosmic/`](cosmic/) | cosmic.voyage | `brennan` | https://cosmic.voyage/Genawaaboonagak |
+| [`envs/`](envs/) | envs.net | `brennan` | https://envs.net/~brennan |
 
 ### [`town/`](town/): tilde.town
 
@@ -91,8 +91,28 @@ but the `public_*` dirs were never filled in. See
 
 ### [`green/`](green/): tilde.green
 
-Newest account (October 2026), still stock except for the default
-`public_html/index.html`. See [`wiki/green.md`](wiki/green.md).
+Newest account (October 2026). Web pages generated from
+[`template/`](template/). See [`wiki/green.md`](wiki/green.md).
+
+### [`template/`](template/): shared pubnix pages
+
+Single source of truth for the unstyled sites (**green**, **cosmic**,
+**envs**, town/club/sdf keep their own pages, pink is gemini-only):
+
+- [`tilde.css`](template/tilde.css): shared stylesheet, copied into each
+  `public_html/`; per-host tint via `<body class="envs|green|cosmic">`
+- [`pages/`](template/pages/): shared body fragments
+- [`art/`](template/art/): per-host ASCII banner for the index page
+- [`skel.html`](template/skel.html): page skeleton (`{{TOKEN}}` placeholders)
+- [`generate.py`](template/generate.py): host registry (the `HOSTS` table
+  drives the "Tildeverse Homes" table) + generator. Run:
+
+```sh
+python3 template/generate.py
+```
+
+to (re)write each host's `public_html/{index,writing,keys,support}.html`
+and copy `tilde.css`. Edit template files, re-run, re-upload.
 
 ## Syncing
 
