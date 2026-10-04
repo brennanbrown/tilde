@@ -23,8 +23,8 @@ MAIL=/mail/${LOGNAME:?}
 # based off of ex (EXtended ed).  But since you might not know these,
 # we will give you "pico".
 #EDITOR=/bin/ed
-#VISUAL=/usr/bin/vi
-EDITOR=/usr/pkg/bin/pico
+VISUAL=/usr/local/bin/micro
+EDITOR=/usr/local/bin/micro
 
 # Neat hacks for the David Korn's shell.
 # standard prompt is the dollar sign.  The shell comment character
