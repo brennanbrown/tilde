@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keys | ~brennan @ envs.net</title>
+<meta name="description" content="Brennan Kenneth Brown's public keys: SSH, PGP, age, Cosign, Minisign, Keyoxide.">
+<link rel="stylesheet" href="tilde.css">
+</head>
+<body class="envs">
+
+<header>
+<h1>Keys | ~brennan</h1>
+<nav>
+<a href="index.html">Home</a> &middot;
+<a href="writing.html">Writing</a> &middot;
+<a href="keys.html" aria-current="page">Keys</a> &middot;
+<a href="support.html">Support</a>
+</nav>
+</header>
+<hr>
+
+<main>
+<p>My public keys, used for encrypting messages to me and verifying my identity
+online. Different tools use different key formats: SSH keys prove control of an
+account, PGP keys encrypt and sign email, and age, Cosign, and Minisign are
+smaller modern alternatives for encryption and signatures. If you have the
+matching tool installed, you can encrypt a message that only I can read, or
+check that a file claiming to be from me really is.</p>
+
+<h2>SSH</h2>
+
+<div class="key">
+<p>For <a href="mailto:mail@brennanbrown.ca">mail@brennanbrown.ca</a></p>
+<pre><code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGe/Bq/IFGbxdVOcf0l7jLHIbHilVLljMdkm10C2ownl mail@brennanbrown.ca</code></pre>
+</div>
+
+<div class="key">
+<p>For <a href="mailto:brennan@omg.lol">brennan@omg.lol</a></p>
+<pre><code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAYU6lvu3nmR49iW0mK/Lrqs4P02ouw2wZq1Sa5LkU2v brennan@omg.lol</code></pre>
+</div>
+
+<h2>PGP</h2>
+
+<p>Plain-text email is a feature, not a limitation: it reads in every client on
+every device, archives well, and quotes cleanly. PGP adds encryption and
+verification without changing that. To send me encrypted mail, import the key
+below, check that the fingerprint matches, then encrypt to
+<a href="mailto:mail@brennanbrown.ca">mail@brennanbrown.ca</a>. New to PGP?
+The FSF's <a href="https://emailselfdefense.fsf.org/">Email Self-Defense</a>
+is a good start, and <a href="https://useplaintext.email/">useplaintext.email</a>
+makes the case for plain text.</p>
+
+<div class="key">
+<p>For <a href="mailto:mail@brennanbrown.ca">mail@brennanbrown.ca</a>
+(fingerprint: <code>4AFD 9774 8B3A A4E6 216F A061 F515 013E CE98 0AE2</code>)</p>
+<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEarSMzRYJKwYBBAHaRw8BAQdAiHoIwes83UMLKbVdKfK31bNCU/JUb3fuMVq5
+NG0ASbG0LEJyZW5uYW4gS2VubmV0aCBCcm93biA8bWFpbEBicmVubmFuYnJvd24u
+Y2E+iK8EExYKAFcWIQRK/Zd0izqk5iFvoGH1FQE+zpgK4gUCarSMzRsUgAAAAAAE
+AA5tYW51MiwyLjUrMS4xMiwwLDMCGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcC
+F4AACgkQ9RUBPs6YCuLqtAD+PkJFHo6IidTMpkkSmqVW+ae7fWJpxge7bXmkcAgv
+NEcA/ifc//oBlMCEZF4EJjcJXq9Xmapc3hFP6VLTmG1RcpcBuDgEarSMzRIKKwYB
+BAGXVQEFAQEHQKSqiLEikiYkSxxAihXKyfSveoPU17o57+r6JhQfUWYBAwEIB4iU
+BBgWCgA8FiEESv2XdIs6pOYhb6Bh9RUBPs6YCuIFAmq0jM0bFIAAAAAABAAObWFu
+dTIsMi41KzEuMTIsMCwzAhsMAAoJEPUVAT7OmAriuc4A/jSmkW/kBlziOZzzhkjr
+JKbuKKgIJczSvNmuhhCoYzkBAP91k3iPetpMp51fX8kPG8IwGqzgHwJZv78qmSz4
+D9tgDw==
+=Usgl
+-----END PGP PUBLIC KEY BLOCK-----</code></pre>
+</div>
+
+<hr>
+
+<h2>age</h2>
+<div class="key">
+<p>Public key (<code>age -r &lt;key&gt; file.txt</code>)</p>
+<pre><code>age1xu0ekjuasphn0m0cvry9phhl68hfe325dahdw5ahqa0y7akjkcnsr96267</code></pre>
+</div>
+
+<h2>Cosign</h2>
+<div class="key">
+<p>Public key (container and artifact signatures)</p>
+<pre><code>-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcpq+leTNpFEZNDKuhYuZU23PxG1A
+JvUTTkWGPbqdaMv+5RlLyxE+WWsr6F1xbkoXaRkaIERN57i5nvfgiE+Okw==
+-----END PUBLIC KEY-----</code></pre>
+</div>
+
+<h2>Minisign</h2>
+<div class="key">
+<p>Public key (<code>minisign -Vm file -P &lt;key&gt;</code>)</p>
+<pre><code>RWT/WMHDrmSSxgM1vYt24hxqczz6U++fnfGo+YmV9f5MYyFXitwO4m5B</code></pre>
+</div>
+
+<h2>Keyoxide</h2>
+<div class="key">
+<p>Identity proof</p>
+<pre><code>openpgp4fpr:4AFD97748B3AA4E6216FA061F515013ECE980AE2</code></pre>
+</div>
+</main>
+<hr>
+
+<footer>
+<p><small>(c) <a href="https://brennan.day">Brennan Kenneth Brown</a> &middot;
+<a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a> +
+<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA</a> &middot;
+hosted on <a href="https://envs.net">envs.net</a> &middot;
+<a href="https://github.com/brennanbrown/tilde">source</a></small></p>
+</footer>
+
+</body>
+</html>

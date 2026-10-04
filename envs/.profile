@@ -29,7 +29,8 @@ fi
 
 ## defaults
 
-export EDITOR="nano"
+export EDITOR="/usr/bin/micro"
+export VISUAL="/usr/bin/micro"
 export PAGER="most"
 
 # gpg
