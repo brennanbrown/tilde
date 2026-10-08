@@ -5,7 +5,9 @@ set -eu
 cd "$(dirname "$0")"
 
 rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.town:~/ town/
-rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.pink:~/ pink/
+# pink's public_gemini is excluded: it is the capsule's canonical source
+# (push-side via the publishing.gmi rsync), not a pulled mirror.
+rsync -az --timeout=60 --delete --exclude-from=sync.excludes --exclude=/public_gemini/ brennan@tilde.pink:~/ pink/
 rsync -az --timeout=60 --delete --exclude-from=sync.excludes brennan@tilde.club:~/ club/
 # cosmic's ~/ships entries are symlinks into /var/gopher (the QEC relay
 # tree); the symlink is excluded and its target is pulled as a real dir.

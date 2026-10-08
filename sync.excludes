@@ -1,3 +1,5 @@
 # rsync exclude patterns, not worth transferring (also gitignored)
 .cache/
 .emacs.d/eln-cache/
+# local-only archives that must survive --delete (e.g. old botany saves)
+*.old

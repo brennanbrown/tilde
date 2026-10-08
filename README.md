@@ -32,6 +32,7 @@ directories (or the equivalent web/gopher space).
 | [`sdf/`](sdf/) | sdf.org | `bren` | http://bren.sdf.org |
 | [`cosmic/`](cosmic/) | cosmic.voyage | `brennan` | https://cosmic.voyage/Genawaaboonagak |
 | [`envs/`](envs/) | envs.net | `brennan` | https://envs.net/~brennan |
+| [`smolpub/`](smolpub/) | smol.pub | `brennan` | https://brennan.smol.pub |
 
 ### [`town/`](town/): tilde.town
 
@@ -48,9 +49,14 @@ The account I currently use most.
 
 ### [`pink/`](pink/): tilde.pink
 
-- [`public_gemini/`](pink/public_gemini/): my main Gemini capsule: gemlog, guides (*Beginner's
+- [`public_gemini/`](pink/public_gemini/): **canonical source** of my main
+  Gemini capsule: gemlog, guides (*Beginner's
   Guide to Gemini*, *Blogging on Gemini*, *Publishing Workflow*), poetry,
-  book/film/music shelf pages, [`.plan`](pink/public_gemini/.plan)/[`.project`](pink/public_gemini/.project)/[`.finger`](pink/public_gemini/.finger)
+  book/film/music shelf pages, [`.plan`](pink/public_gemini/.plan)/[`.project`](pink/public_gemini/.project)/[`.finger`](pink/public_gemini/.finger).
+  Unlike other mirrors this directory is *push-side*: `sync.sh` excludes it,
+  and deploys run the other way —
+  `rsync -avz --exclude='.DS_Store' pink/public_gemini/ tilde.pink:public_gemini/`
+- [`pink-old/`](pink-old/): archived previous version of the capsule
 - [`public_gopher/`](pink/public_gopher/): gopherhole
 - [`.byobu/`](pink/.byobu/), `.irssi/`, [`.config/micro/`](pink/.config/micro/): shell session + editor configs
 
@@ -112,6 +118,27 @@ python3 template/generate.py
 to (re)write each host's `public_html/{index,writing,keys,support}.html`
 and copy `tilde.css`. Edit template files, re-run, re-upload.
 
+### [`smolpub/`](smolpub/): smol.pub capsule source
+
+Local source for `gemini://brennan.smol.pub` (moved here from
+`~/Projects/brennan.day/oldnet/`): capsule pages (`home.gmi`,
+`about.gmi`, `links.gmi`, `gemini-guide.gmi`), gemtext versions of site
+posts in [`posts/`](smolpub/posts/), Smol Pub header/footer in
+[`templates/`](smolpub/templates/), admin/public CSS in
+[`theme/`](smolpub/theme/), and [`setup.md`](smolpub/setup.md) describing
+the Smol Pub knobs.
+
+### [`scripts/`](scripts/)
+
+- [`convert-to-gemtext.js`](scripts/convert-to-gemtext.js): Markdown →
+  Gemtext converter (`node scripts/convert-to-gemtext.js in.md out.gmi`)
+
+### [`listings/`](listings/)
+
+Descriptions submitted to web directories/webrings:
+[`brennan-day.txt`](listings/brennan-day.txt) (Writer's Lane),
+[`nightfall.txt`](listings/nightfall.txt) (Nightfall City).
+
 ## Syncing
 
 ```sh
@@ -120,7 +147,9 @@ and copy `tilde.css`. Edit template files, re-run, re-upload.
 
 To pull everything again:
 
-- **town/pink/club/envs/green** use `rsync -az --delete --exclude-from=`[`sync.excludes`](sync.excludes);
+- **town/pink/club/envs/green** use `rsync -az --delete --exclude-from=`[`sync.excludes`](sync.excludes)
+  (pink additionally excludes `/public_gemini/`, which is the capsule
+  *source*, it is pushed to the server, not pulled);
   **cosmic** does the same for `~`, plus a follow-the-symlink pull for
   its ship dir.
   `--delete` means files removed remotely are also removed locally:
@@ -130,6 +159,8 @@ To pull everything again:
 - **sdf** doesn't permit `rsync` for this account class, so it's pulled via
   `ssh ... tar`. The `~/gopher` and `~/html` symlinks are excluded from the
   home tarball so re-syncs don't overwrite the [`gopher/`](sdf/gopher/)/[`html/`](sdf/html/) dirs.
+  `rsync` also can't *push* to sdf, deploy changed pages with
+  `cat file | ssh bren@sdf.org 'cat > ~/html/file'` instead.
 
 ## What's Not Tracked
 
