@@ -1,0 +1,74 @@
+                          []=++-
+                      _II__|
+                     [[__] |
+    _________________||  |___
+   /^^^^^^,-.^^^^^^^^\|__|^^^\
+  /     ,',-.`.               \
+ /    ,','   `.`.     ,-"""-.  \
+/___,','__   __`.`.__/_,"T"._\__\
+ |='-'||/\| |^^||`-`=|_|_|_|_|=|
+ |= = ||)(| |__||= ==|_|_|_|_|=|
+ |= ==|"""" """"| = =____= =_==|
+ |== =| __   __ |= =| [] | |^|=|
+ |= ==||/\| |==||== |   o|=|_| |
+ |== =||)(| |  || = | == | == =|
+ |= ==|"""" """"|== |____|= = =| hjw
+ """""|_________|"""'====`""""""
+
+Brennan's House on the Shore
+============================
+
+Welcome to my little corner of Nightfall City! I'm Brennan 
+(he/they), a Queer Métis author and web developer based in 
+Calgary, Alberta, Canada.
+
+About Me
+--------
+
+I wear many hats: founder of Berry House 
+(https://berryhouse.ca), a values-driven web studio; 
+independent literary journalist; and founder of Write Club
+(https://writeclub.netlify.app), a creative collective for writers. 
+I'm passionate about digital autonomy, accessibility, and 
+building a more independent web.
+
+Quick Facts
+-----------
+
+- Location: Calgary, Alberta, Canada (Treaty 7 territory)
+- Age: 30
+- Education: BA English (Honours) with minors in 
+  Creative Writing & Religious Studies
+- Writing: Published 9 books, 300+ articles since 2015
+- Focus: Creative nonfiction, lyric essays, digital 
+  culture, accessibility
+
+What I Do
+---------
+
+Writing
+-------
+I primarily write creative nonfiction and lyric essays on 
+topics like writing craft, literary criticism, digital 
+minimalism, and the independent web. Most of my 
+longform work lives at blog.brennanbrown.ca
+(https://blog.brennanbrown.ca).
+
+Web Development
+---------------
+I build fast, accessible, content-first websites using 
+static-site tooling. I care about performance, 
+accessibility (A11y-first), and helping people own their 
+digital presence.
+
+Find Me Elsewhere
+-----------------
+
+- Main Site: https://brennan.day
+- Portfolio: https://brennanbrown.ca
+- Email: mail@brennanbrown.ca
+
+------------------------------------------------------------
+
+This house is part of the Nightfall City Shore district. 
+Built with gruvbox colours and ASCII art.
