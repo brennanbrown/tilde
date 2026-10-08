@@ -32,6 +32,7 @@
 **/weechat.log
 **/output.log
 **/.local/state/
+**/.links2/
 
 # Caches & generated junk
 **/.cache/
