@@ -1,0 +1,78 @@
+``` ASCII ART
+         ,            __ \/ __
+     /\^/`\          /o \{}/ o\   If I had a flower for each time
+    | \/   |         \   ()   /     I thought of you, my garden
+    | |    |          `> /\ <`   ,,,     would be full...
+    \ \    /  @@@@    (o/\/\o)  {{{}}                 _ _
+     '\\//'  @@()@@  _ )    (    ~Y~       @@@@     _{ ' }_
+       ||     @@@@ _(_)_   wWWWw .oOOo.   @@()@@   { `.!.` }
+       ||     ,/  (_)@(_)  (___) OO()OO    @@@@  _ ',_/Y\,'
+       ||  ,\ | /)  (_)\     Y   'OOOO',,,(\|/ _(_)_ {_,_}
+   |\  ||  |\\|// vVVVv`|/@@@@    _ \/{{}}}\| (_)@(_)  |  ,,,
+   | | ||  | |;,,,(___) |@@()@@ _(_)_| ~Y~ wWWWw(_)\ (\| {{{}}
+   | | || / / {{}}} Y  \| @@@@ (_)#(_) \|  (___)   |  \| /~Y~
+    \ \||/ /\\|~Y~ \|/  | \ \/  /(_) |/ |/   Y    \|/  |//\|/
+bkb\ `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \\\\ |/,.\|/
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+# Brennan's Gemini Capsule
+
+Note: Most links on this page are https://
+
+Hi, I'm Brennan (he/they). Friends call me Kenny. 
+
+I'm Queer, Red River Métis, and work as an author and web developer. I'm 30 years old, born in Winnipeg, Manitoba, and currently based in Mohkínstsis in Treaty 7 territory (Calgary, Alberta).
+
+## 📋 Quick Facts
+
+• 📍 Location: Calgary, Alberta, Canada (Treaty 7 territory)
+• 🎂 Age: 30
+• 🎓 Education: BA English (Honours) with minors in Creative Writing & Religious Studies
+• ✍️ Writing: Published 9 books, 200+ articles since 2015
+• 📚 Focus: Creative nonfiction, lyric essays, digital culture, accessibility
+
+=> https://gemtext.brennan.day gemtext.brennan.day is a markdown-to-gemtext converter/demaker I made!
+
+## 💼 What I Do
+
+### 🍓 Founder of Berry House
+
+I'm the lead developer and founder of Berry House, a values-driven studio building fast, accessible JAMstack websites with a dual mission: corporate clients fund pro bono work for marginalized communities.
+
+=> https://berryhouse.ca Visit Berry House
+
+### 📝 Independent Literary Journalist
+
+I primarily write creative nonfiction and lyric essays on topics like writing craft, literary criticism, digital minimalism, and the independent web. Most of my longform work lives at:
+
+=> https://blog.brennanbrown.ca Read my writing on Medium
+
+### 👥 Community Builder
+
+In 2022, I founded Write Club, a creative collective for writers that grew from one person to 100+ members that I ran for three years.
+
+=> https://writeclub.ca Visit Write Club
+
+## 💻 Web Development Approach
+
+I build fast, accessible, content-first websites using static-site tooling. I care about:
+• Performance (sub-second load times)
+• Accessibility (A11y-first, WCAG 2.1 AA compliance)
+• Portability (plain text, version control)
+• Helping people own their digital presence
+
+## 🔗 Find Me Elsewhere
+
+=> https://brennan.day/accounts My Other Accounts
+=> https://cv.brennanbrown.ca My CV
+
+---
+
+=> https://brennan.day Main Site
+=> gemini://tilde.pink/~brennan/ Gemini capsule (tilde.pink)
+=> gemini://brennan.smol.pub/ Gemini capsule (smol.pub)
+=> mailto:mail@brennanbrown.ca Contact
+
+© 2026 Brennan - Content available under CC BY-SA
+

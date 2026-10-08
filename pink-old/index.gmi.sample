@@ -1,0 +1,17 @@
+Gemini files are a very simple format. Text written like this is
+displayed exactly as you see it.
+
+To create a link, the line must start with "=>" then white space,
+space or tab works, the url relative or absolute, more white space,
+then the link name.
+
+Examples:
+
+=> gemini://gemini.circumlunar.space	The Gemini Project Home
+
+=> stuffilike.gmi	Stuff I Like!
+
+=> /~myusername/morestuff/	More Stuff I like in a Directory!
+
+note: this last link expect an index.gmi to be present. If there is
+no index.gmi file in a directory, the server will list the contents.
