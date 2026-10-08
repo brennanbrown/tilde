@@ -82,10 +82,13 @@ print <<"HEAD";
     <a href="index.html">Home</a> &middot;
     <a href="sdf.html">What is SDF?</a> &middot;
     <a href="services.html">Services &amp; Tools</a> &middot;
+    <a href="links.html">Links</a> &middot;
     <a href="keys.html">Keys</a> &middot;
-    <a href="guestbook.cgi">Guestbook</a>
+    <a href="support.html">Support</a> &middot;
+    <a href="guestbook.cgi" aria-current="page">Guestbook</a>
   </nav>
 </header>
+<hr>
 
 <main>
 
@@ -155,12 +158,16 @@ if (!@entries) {
 print <<"FOOT";
 
 </main>
+<hr>
 
 <footer>
   <p>
     <small>
-      Plain HTML + CSS + Perl CGI &middot;
-      <a href="index.html">bren.sdf.org</a>
+      (c) <a href="https://brennan.day">Brennan Kenneth Brown</a> &middot;
+      <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a> +
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA</a> &middot;
+      hosted on <a href="https://sdf.org">sdf.org</a> &middot;
+      <a href="https://github.com/brennanbrown/tilde">source</a>
     </small>
   </p>
 </footer>
