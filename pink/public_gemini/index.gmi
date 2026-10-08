@@ -65,7 +65,8 @@ in Treaty 7 territory (Calgary, Alberta).
 
 => gemini://bbs.geminispace.org/u/brennan Gemini BBS
 => gemini://station.martinrue.com/brennan Station
-=> gemini://astrobotany.mozz.us/public/98f417e845ee455b840b79c7da846a13/m1 Amanda, my plant
+=> gemini://astrobotany.mozz.us/public/5b0ab14e019144de90f5540dda7829cd/m1 Amanda II, my plant
+=> gemini://astrobotany.mozz.us/public/98f417e845ee455b840b79c7da846a13/m1 Amanda, my original plant (no longer accessible)
 => gopher://tilde.town:70/1/~brennan/feels/ My Gopherspace Feels
 
 ## 🛰️ Other Capsules

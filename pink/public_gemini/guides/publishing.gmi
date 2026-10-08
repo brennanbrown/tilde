@@ -38,7 +38,7 @@ Posts are drafted in Markdown and converted to Gemtext with a tool I built. Page
 The capsule source lives in a git-tracked folder on my machine that mirrors the remote directory structure:
 
 ```
-oldnet/pink/          →  ~/public_gemini/ on tilde.pink
+pink/public_gemini/   →  ~/public_gemini/ on tilde.pink
   index.gmi           →  gemini://tilde.pink/~brennan/
   about.gmi           →  gemini://tilde.pink/~brennan/about.gmi
   guides/index.gmi    →  gemini://tilde.pink/~brennan/guides/
@@ -48,14 +48,14 @@ oldnet/pink/          →  ~/public_gemini/ on tilde.pink
 
 Because the local tree mirrors the remote one, a link that works locally works on the capsule.
 
-=> https://gitlab.com/brennankbrown/brennan.day/-/tree/main/oldnet/pink?ref_type=heads ⚗️ GitLab Repository
+=> https://github.com/brennanbrown/tilde/tree/main/pink/public_gemini ⚗️ GitHub Repository
 
 ## 3. Publish
 
 One command, which can be ran from anywhere:
 
 ```
-rsync -avz --exclude='.DS_Store' ~/Projects/brennan.day/oldnet/pink/ tilde.pink:public_gemini/
+rsync -avz --exclude='.DS_Store' ~/Projects/tilde/pink/public_gemini/ tilde.pink:public_gemini/
 ```
 
 The flags:
