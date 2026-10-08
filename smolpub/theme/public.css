@@ -1,0 +1,307 @@
+/* Smol Pub Public Theme for Brennan's Blog */
+
+@import url('https://fonts.bunny.net/css?family=newsreader:400,400i,500,500i,600,600i,700,700i|young-serif:400&display=swap');
+
+:root {
+	color-scheme: light dark;
+
+	/* Base colors (light mode) - greyscale */
+	--bg: #ffffff;
+	--bg-alt: #f7f7f7;
+	--panel: #eeeeee;
+	--fg: #111111;
+	--fg-rgb: 17, 17, 17;
+	--muted: #4d4d4d;
+	--border: #d0d0d0;
+
+	--accent-primary: #c81e3a;
+	--accent-secondary: #0d7490;
+
+	/* Navigation rainbow colors - Sunflower */
+	--nav-red: #c81e3a;
+	--nav-orange: #c2570a;
+	--nav-yellow: #946800;
+	--nav-green: #1a7f37;
+	--nav-aqua: #0d7490;
+	--nav-blue: #1d4ed8;
+	--nav-purple: #7c3aed;
+	--nav-text: #ffffff;
+
+	/* Link colors */
+	--link: var(--accent-primary);
+	--visited: #7c3aed;
+	--link-hover: #c2570a;
+
+	/* Selection */
+	--selection-bg: #c2570a;
+	--selection-fg: #ffffff;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #121212;
+		--bg-alt: #1a1a1a;
+		--panel: #212121;
+		--fg: #f2f2f2;
+		--fg-rgb: 242, 242, 242;
+		--muted: #b3b3b3;
+		--border: #404040;
+
+		--accent-primary: #de8296;
+		--accent-secondary: #e8a468;
+
+		--link: var(--nav-blue);
+		--visited: #cc99ff;
+		--link-hover: #00e5ff;
+
+		--selection-bg: var(--accent-secondary);
+		--selection-fg: #121212;
+
+		--nav-red: #de8296;
+		--nav-orange: #e8a468;
+		--nav-yellow: #ffd60a;
+		--nav-green: #39d353;
+		--nav-aqua: #00e5ff;
+		--nav-blue: #86baff;
+		--nav-purple: #cc99ff;
+		--nav-text: #121212;
+	}
+}
+
+/* Typography */
+body {
+	font-family: 'Newsreader', serif;
+	font-weight: normal;
+	line-height: 1.6;
+	max-width: 70ch;
+	margin: 0 auto;
+	padding: 1rem;
+	background: var(--bg);
+	color: var(--fg);
+}
+
+/* Paragraph styling */
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 1rem 0;
+}
+
+/* Code typography */
+code,
+pre {
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	font-weight: normal;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Young Serif', serif;
+	font-weight: normal;
+	line-height: 1.2;
+	margin: 2rem 0 1rem 0;
+	color: var(--fg);
+}
+
+h1 {
+	font-size: 2rem;
+	border-bottom: 3px solid var(--accent-primary);
+	padding-bottom: 0.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	border-bottom: 2px solid var(--accent-secondary);
+	padding-bottom: 0.3rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 0.2rem;
+}
+
+/* Links with rainbow hover effects */
+a {
+	color: var(--link);
+	text-decoration: underline;
+	transition: color 200ms ease;
+	position: relative;
+}
+
+a:visited {
+	color: var(--visited);
+}
+
+a:hover {
+	color: var(--link-hover);
+}
+
+/* Rainbow navigation */
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin: 1rem 0;
+}
+
+nav li {
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	transition: all 200ms ease;
+}
+
+nav li:nth-child(1) {
+	background: var(--nav-red);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(2) {
+	background: var(--nav-orange);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(3) {
+	background: var(--nav-yellow);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(4) {
+	background: var(--nav-green);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(5) {
+	background: var(--nav-aqua);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(6) {
+	background: var(--nav-blue);
+	color: var(--nav-text);
+}
+
+nav li:nth-child(7) {
+	background: var(--nav-purple);
+	color: var(--nav-text);
+}
+
+nav li:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Preformatted text blocks */
+pre {
+	background: var(--panel);
+	padding: 1.5rem;
+
+	border: 2px solid var(--border);
+	overflow-x: auto;
+	margin: 1.5rem 0;
+	font-size: 0.9rem;
+	line-height: 1.4;
+}
+
+code {
+	background: var(--panel);
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	border: 1px solid var(--border);
+	font-size: 0.9em;
+}
+
+/* Blockquotes */
+blockquote {
+	border: 4px solid var(--accent-secondary);
+	margin: 1.5rem 0;
+	padding: 1rem 1.5rem;
+	background: var(--bg-alt);
+	color: var(--muted);
+	font-style: italic;
+	border-radius: 0 4px 4px 0;
+}
+
+/* Lists */
+ul,
+ol {
+	padding-left: 1.5rem;
+	margin: 1rem 0;
+}
+
+li {
+	margin: 0.5rem 0;
+}
+
+/* Gemini links styling */
+.gemini-link {
+	display: block;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid var(--border);
+	transition: background 200ms ease;
+}
+
+.gemini-link:hover {
+	background: var(--bg-alt);
+}
+
+/* Footer */
+footer {
+	margin-top: 3rem;
+	padding-top: 1.5rem;
+	border-top: 2px solid var(--border);
+	font-size: 0.9rem;
+	color: var(--muted);
+	text-align: center;
+}
+
+/* Selection */
+::selection {
+	background: var(--selection-bg);
+	color: var(--selection-fg);
+}
+
+/* Focus styles */
+:focus-visible {
+	outline: 2px solid var(--accent-primary);
+	outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	body {
+		padding: 0.5rem;
+		max-width: 100%;
+	}
+
+	nav ul {
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+	}
+}

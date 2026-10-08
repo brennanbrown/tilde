@@ -1,0 +1,235 @@
+---
+title: 'Setting Up Decap CMS with Jekyll: A Real-World Example'
+date: 2025-01-06T00:00:00.000Z
+tags: [technical, tutorial, jekyll]
+summary: "A Technical Guide to Leaving a Legacy"
+description: "A Technical Guide to Leaving a Legacy"
+featuredimage: https://cdn-images-1.medium.com/max/800/08zVgKYsWh72uy7Ri
+featuredimagealt: 'Photo by Fotis Fotopoulos on Unsplash'
+featuredimagecaption: 'Photo by Fotis Fotopoulos on Unsplash'
+wordCount: 1164
+canonical: https://medium.com/@brennanbrown/setting-up-decap-cms-with-jekyll-a-real-world-example-6572fc6bfe5c
+---
+
+In the quiet hours between classes and deadlines, I’ve spent countless evenings with VS Code open, manually adding new stories and poems into Write Club’s digital website and archive. For three years, this ritual has been mine—a founder’s labour of love, transforming raw text files into published works, one git commit at a time. Each new submission, each event announcement, passed through my hands like river stones being placed in a garden.
+
+But time flows forward, and with my final semester approaching, I find myself contemplating legacy. How do you prepare to let go of something you’ve nurtured from seed? The answer, I’ve learned, lies not in holding tighter, but in building bridges—creating pathways for others to tend this digital garden long after I’ve moved on.
+
+This piece departs from my usual meandering through memory and meaning. Instead, it’s a map I’m drawing for those who’ll come after, a technical guide born from the necessity of transition. In discovering Decap CMS, I found a tool and a way to transform Write Club’s website from a developer’s project into a true community platform.
+
+What follows is both documentation and gift—a step-by-step guide to implementing Decap CMS with Jekyll. While more technical than my typical writing, it carries the same care and attention to detail that has marked my journey with Write Club.
+
+=> https://decapcms.org Decap CMS (formerly Netlify CMS) is a powerful open-source content management system that works seamlessly with static site generators like Jekyll. In this tutorial, I’ll walk you through setting up Decap CMS using a real-world example: => https://writeclub.netlify.app Write Club, a university creative writing club’s website.
+
+# What We’ll Cover
+1.  Basic Decap CMS setup with Jekyll
+
+2.  Configuring collections for blog posts
+
+3.  Managing authors with a relation widget
+
+4.  Handling static pages
+
+5.  Complete working configuration
+
+# Basic Setup
+First, let’s cover the basic backend configuration. Create a ```
+config.yml
+``` file in the ```
+admin
+``` directory of your Jekyll site:
+
+`````
+
+yaml
+backend:
+  name: git-gateway
+  branch: main
+  identityurl: "https://writeclub.netlify.app/.netlify/identity"
+  gatewayurl: "https://writeclub.netlify.app/.netlify/git"
+  login: true
+  roles: ["admin", "editor"]
+  mediafolder: "assets/images/uploads"
+  publicfolder: "/assets/images/uploads"
+
+
+```````
+
+
+This configuration:
+
+ Uses Git Gateway for authentication
+
+ Sets up media handling directories
+
+ Defines admin and editor roles
+
+# Blog Posts Collection
+
+For blog posts, we’ll create a collection that matches Jekyll’s 
+```posts```
+ directory structure:
+
+
+```````
+
+yaml
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Author", name: "author", widget: "relation",
+          collection: "authors", valuefield: "username",
+          searchfields: ["title", "username"],
+          displayfields: ["title"] }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Hidden", name: "hidden", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+```````
+
+
+Note the 
+```author```
+ field uses a relation widget, which we’ll configure next.
+
+# Authors Collection
+
+For managing authors, we’ll create a collection that maps to Jekyll’s 
+```authors```
+ directory:
+
+
+```````
+
+yaml
+  - name: "authors"
+    label: "Authors"
+    folder: "authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Display Name", name: "title", widget: "string" }
+      - { label: "Username", name: "username", widget: "string" }
+      - { label: "Default Author", name: "default", widget: "boolean", default: false }
+      - { label: "Avatar", name: "image", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text", required: false }
+      - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Website", name: "website", widget: "string", required: false }
+      - { label: "Facebook", name: "facebook", widget: "string", required: false }
+      - { label: "GitHub", name: "github", widget: "string", required: false }
+      - { label: "Reddit", name: "reddit", widget: "string", required: false }
+      - { label: "Instagram", name: "instagram", widget: "string", required: false }
+      - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+      - { label: "Twitter", name: "twitter", widget: "string", required: false }
+      - { label: "Biography", name: "body", widget: "markdown" }
+
+
+```````
+
+
+This configuration allows for comprehensive author profiles with social media links and biographies.
+
+# Static Pages
+
+For static pages, we’ll use a file collection since these are individual files rather than a folder of similar content:
+
+
+```````
+
+yaml
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Sidebar", name: "sidebar", widget: "select",
+              options: ["none", "left", "right"], default: "none" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "Terms & Code of Conduct"
+        file: "terms.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Sidebar", name: "sidebar", widget: "select",
+              options: ["none", "left", "right"], default: "none" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - name: "events"
+        label: "Events Page"
+        file: "events/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Sidebar", name: "sidebar", widget: "select",
+              options: ["none", "left", "right"], default: "none" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+
+```````
+
+
+Note that static pages can live in different locations—the events page is in a subdirectory while other pages are in the root.
+
+# Features and Benefits
+
+This configuration provides several advantages:
+
+1.  Structured Content: Each content type (posts, authors, pages) has a defined structure that matches Jekyll’s expectations
+
+2.  Related Content: Posts can reference authors through the relation widget
+
+3.  Flexible Pages: Static pages can have different locations while maintaining consistent structure
+
+4.  Optional Fields: Many fields are marked as optional (
+```required: false`) to allow for flexibility
+
+5.  Media Management: Built-in media handling for images and uploads
+
+# Implementation Notes
+
+When implementing this configuration:
+
+1.  Ensure your Jekyll site’s directory structure matches the configuration
+
+2.  Set up Netlify Identity for authentication
+
+3.  Configure Git Gateway for content management
+
+4.  Add the Decap CMS script to your admin page
+
+# Common Gotchas
+
+A few things to watch out for:
+
+1.  File Paths: Ensure all file paths in the configuration match your Jekyll site structure
+
+2.  Permalinks: Make sure permalinks in the configuration match your Jekyll configuration
+
+3.  Media Handling: Test media uploads to ensure paths are correctly configured
+
+4.  Author Relations: Test the author relation widget to ensure it correctly links to posts
+
+# Conclusion
+
+This configuration provides a solid foundation for managing a Jekyll site with Decap CMS. It’s based on a real-world implementation and can be adapted to suit your specific needs. The complete configuration can be found in this => https://github.com/yourusername/your-repo GitHub repository.
+
+Let me know in the comments if you have any questions about implementing this setup!
+
+Want to see this in action? Check out => https://writeclub.netlify.app Write Club to see how this configuration powers a real website.
+
+
+=> https://medium.com/@brennanbrown/setting-up-decap-cms-with-jekyll-a-real-world-example-6572fc6bfe5c Originally posted here.

@@ -1,0 +1,124 @@
+# Gemini Protocol Guide
+
+## What is Gemini?
+
+Gemini is a modern internet protocol designed to be a simpler, lighter alternative to the web (HTTP/HTML). It was created in 2019 as a response to the increasing complexity, tracking, and privacy issues of the modern web.
+
+Gemini strips away the complexity while keeping what makes the internet useful: text-based content with links. Think of it as a middle ground between Gopher and the web: simple enough to be implementable, but powerful enough for modern content needs.
+
+## Key Features
+
+• Text-first protocol: No images, JavaScript, or complex layouts
+• Built-in TLS encryption: All connections are secure by default
+• Simple markup: Gemtext is much simpler than HTML
+• Privacy-focused: No tracking, cookies, or surveillance
+• Lightweight: Works on minimal hardware and slow connections
+• User-controlled: Clients decide how to display content
+
+## How Gemini Works
+
+Gemini uses a simple client-server model:
+• Clients connect to servers on port 1965
+• All connections use TLS encryption
+• Servers respond with status codes and content
+• Content is served in Gemtext format
+• Links use the gemini:// protocol
+
+## Gemtext Syntax
+
+Gemtext is the markup language used for the Gemini protocol. Here's the syntax:
+
+## Headings
+
+# Top level title
+## Second level title
+### Third level title
+
+## Lists
+
+* List item
+* List item
+
+## Quotes
+
+> Quoted text
+
+## Preformatted Text
+
+```
+Preformatted text
+```
+
+## Links
+
+=> https://example.com This is a link
+=> gemini://example.com This is a link to a gemini page
+=> //example.com This is a schemaless link
+
+## Key Differences from Markdown
+
+• No emphasis (bold/italic)
+• No inline code
+• No images
+• Simpler link syntax
+• Line breaks are significant
+• Designed for terminal-based readers
+
+## Getting Started with Gemini
+
+### Gemini Clients
+
+=> https://github.com/makew0rld/amfora Amfora — Terminal-based Gemini client (Linux/macOS/Windows)
+=> https://gmi.skyjake.fi/lagrange/ Lagrange — Beautiful graphical Gemini client (all platforms)
+=> https://github.com/MasterQ32/kristall Kristall — Cross-platform graphical Gemini client (Qt)
+=> https://sr.ht/~julienxx/Castor/ Castor — Simple graphical Gemini client (Rust/GTK)
+
+### Finding Gemini Content
+
+=> gemini://geminispace.org Gemini Space Directory
+=> gemini://gemini.circumlunar.space Project Gemini homepage
+=> gemini://smol.pub Smol Pub hosting platform
+=> gemini://geminiprotocol.net Official Gemini documentation
+
+## Why Gemini Matters
+
+Gemini addresses several problems with the modern web:
+
+### Privacy Issues
+• No tracking or analytics
+• No cookies or local storage
+• No JavaScript for fingerprinting
+• Encrypted by default
+
+### Accessibility
+• Works on slow connections
+• Minimal hardware requirements
+• Screen reader friendly
+• Text-first design
+
+### Sustainability
+• Lower bandwidth usage
+• Less energy consumption
+• Longer battery life on mobile
+• Reduced server load
+
+## The Philosophy
+
+Gemini is about building a more sustainable, accessible internet. It prioritizes:
+• Content over presentation
+• Privacy over tracking
+• Simplicity over complexity
+• User control over corporate control
+
+## Why Use Gemini?
+
+• Privacy-focused browsing without sacrificing functionality
+• Fast loading times even on slow connections
+• Content that focuses on substance over style
+• A more deliberate, thoughtful reading experience
+• Support for an independent, decentralized web
+
+------------------------------------------------------------
+
+=> /home Back to home
+=> https://brennan.day Visit my website

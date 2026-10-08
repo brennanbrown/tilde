@@ -1,0 +1,8 @@
+# Brennan's Gemini Blog
+
+=> / Home
+=> /about About
+=> /guide Guide
+=> //smol.pub Admin
+
+---

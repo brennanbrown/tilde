@@ -1,0 +1,8 @@
+# Posts
+
+=> /posts/geometry-of-writing.gmi The Geometry of Writing
+=> /posts/decap-cms-jekyll.gmi Setting Up Decap CMS with Jekyll: A Real-World Example
+
+------------------------------------------------------------
+
+=> /home Back to home

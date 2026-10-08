@@ -1,0 +1,332 @@
+# Links
+
+Last updated: September 2026
+
+Capsules, communities, and curious corners of Geminispace.
+
+## My Links
+
+=> gemini://bbs.geminispace.org/u/brennan Gemini BBS
+=> gemini://station.martinrue.com/brennan Station
+=> gemini://astrobotany.mozz.us/public/5b0ab14e019144de90f5540dda7829cd/m1 my plant, Amanda II
+=> gemini://astrobotany.mozz.us/public/98f417e845ee455b840b79c7da846a13/m1 my original plant, Amanda (no longer accessible)
+
+=> gemini://brennan.flounder.online My Flounder capsule
+=> gemini://tilde.pink/~brennan My tilde.pink capsule
+=> gemini://brennan.smol.pub My smol.pub capsule
+
+## The Gemini Project
+
+=> gemini://geminiprotocol.net/ Gemini Protocol, official project site
+=> gemini://geminiquickst.art/ Gemini Quickstart guide
+=> gemini://mozz.us/files/rfc_gemini_favicon.gmi Emoji favicons in Gemini, a spec proposal
+=> gemini://gemi.dev/gemlog/2022-02-08-favicons.gmi On favicons and how to add one to your capsule
+
+## Search & Discovery
+
+=> gemini://kennedy.gemi.dev Kennedy, Geminispace search engine: discovery, historical snapshots, backlinks, and capsule health
+=> gemini://kennedy.gemi.dev/archive/ Delorean, the Geminispace time machine
+=> gemini://gemini.thegonz.net/cdg/ Collaborative Directory of Geminispace
+=> gemini://fediring.net/ Fediring, a Gemini webring
+=> gemini://geminispace.info/ geminispace.info, public Gemini search provider
+=> gemini://tlgs.one/ TLGS, another public Gemini search provider
+=> gemini://gemplex.space/ Gemplex, experimental search engine
+=> gemini://aurasearch.ddns.net/ Aura Search, covering Gemini, Nex, Spartan, and Scroll
+=> gemini://medusae.space/ Medusae, hand-maintained capsule directory
+=> gemini://geddit.glv.one Geddit, interactive link service with comments
+=> gemini://fumble-around.mediocregopher.com Fumble-around, explore gemspace by hopping between random interesting pages
+=> gopher://gopher.floodgap.com:70/1/v2 Veronica, Gopherspace search
+=> gopher://gopher.icu:70/1/quarry Quarry, Gopherspace search
+
+## Aggregators
+
+=> gemini://warmedal.se/~antenna/ Antenna
+=> gemini://antenna.ucant.org/ Antenna, ucant.org instance
+=> gemini://gemini.circumlunar.space/capcom/ CAPCOM
+=> gemini://gemini.circumlunar.space/users/gemlog/ CircumLunar gemlog feed
+=> gemini://skyjake.fi/~Cosmos/ Cosmos
+
+## Geminispace Statistics
+
+=> gemini://gemini.bortzmeyer.org/software/lupa/stats.gmi Lupa's Geminispace Statistics
+=> gemini://tlgs.one/statistics TGLS' Geminispace Statistics
+=> gemini://botond.online/en/stats/ Botond's Geminispace Stats Visualized
+=> https://clehaxze.tw/misc/geminispace-topology-2026-09/ Geminispace topology visualization
+
+## Communities
+
+=> gemini://bbs.geminispace.org/ Gemini BBS: discussion, microblogging, and issue tracking
+=> gemini://station.martinrue.com/ Station: status updates, capsuleers can hang out and socialise
+=> gemini://midnight.pub/ Midnight Pub: small-scale personal publishing with a human-scale social feel
+=> gemini://flounder.online Flounder
+=> gemini://gemlog.blue Gemlog Blue
+=> gemini://smol.pub Smol Pub
+=> gemini://gemcities.com GemCities, capsule publisher
+=> gemini://gemini.smallweb.space/ SmallWeb.Space, smol web host
+=> gemini://gemini.circumlunar.space CircumLunar.Space, community capsule host
+=> gemini://software-freedom.org Software Freedom
+=> gemini://cities.yesterweb.org Yestercities (defunct)
+=> gopher://gopher.club:70/ Internet Gopher Club Underground Syndicate
+=> gopher://magical.fish:70/1/ magical.fish
+
+## Pubnixes & Tildes
+
+=> gemini://gem.sdf.org SDF Public Access UNIX System
+=> gemini://gemini.ctrl-c.club/ Ctrl-C Club
+=> gemini://envs.net Envs
+=> gemini://breadpunk.club/ Breadpunk Club
+=> gemini://heathens.club/ heathens.club
+=> gemini://tanelorn.city/ tanelorn city
+=> gemini://tilde.cafe/ Tilde Cafe
+=> gemini://tilde.club/ Tilde Club
+=> gemini://tilde.pink/ tilde.pink
+=> gemini://tilde.team/ Tilde Team
+=> gemini://tilde.town/ tilde.town
+=> gemini://rawtext.club/ Raw Text Club (RTC) (defunct)
+
+## Capsules of Interest
+
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/ solderpunk, creator of Gemini
+=> gopher://zaibatsu.circumlunar.space/1/~solderpunk/ solderpunk's Gopherhole
+=> gemini://athanasia.gemcities.com/ Athanasia
+=> gemini://balloon.fusen.nya.je/ Balloon/Fusen
+=> gemini://elektito.com/gemlog/ Elektito
+=> gemini://nytpu.com Nytpu
+=> gemini://sava.rocks sava.rocks
+=> gemini://mozz.us mozz.us
+=> gemini://cyberdreams.info CyberDreams
+=> gemini://gem.acdw.net ACDW's Gemini Cottage
+=> gemini://drewdevault.com/ Drew DeVault
+=> gemini://hexdsl.co.uk HexDSL
+=> gemini://gemini.lottalinuxlinks.com Lotta Linux Links
+=> gemini://pennywhether.xyz PennyWhether's Place
+=> gemini://gemini.circumlunar.space/users/hundredrabbits/ Hundred Rabbits
+=> gemini://gemini.circumlunar.space/users/laur%C3%AB/ Laurë's capsule
+=> gemini://skyjake.fi/ Skyjake, developer of Lagrange
+=> gemini://alexschroeder.ch/ Alex Schroeder
+=> gemini://freeshell.de/ JBanana
+=> gemini://gmi.bacardi55.io/ bacardi55
+=> gemini://warmedal.se/~bjorn/ ew0k
+=> gemini://taoetc.org Tao Etc
+=> gemini://caolan.uk/ Caolan
+=> gemini://adele.work Adele's capsule
+=> gemini://going-flying.com/~mernisse/ Mernisse
+=> gemini://tobykurien.com/ Toby Kurien's capsule
+=> gemini://friendo.monster/ Drew's capsule
+=> gemini://rawtext.club/~ecliptik ecliptik
+=> gemini://rawtext.club/~sloum/ sloum
+=> gopher://zaibatsu.circumlunar.space/1/~sloum/ sloum's Gopherhole
+=> gopher://gopher.black/ Tomasino's gopherhole
+=> gopher://box.matto.nl:70/1/ Matto's gopherhole
+=> gopher://tilde.pink/1/~bencollver/ bencollver's gopherhole
+=> gemini://tilde.cafe/~spellbinding/ ~spellbinding's word games
+=> gemini://corstar.flounder.online corstar
+=> gemini://subphase.xyz/index.gmi subphase
+=> gemini://pixeldreams.tokyo/ kyo
+=> gemini://tilde.pink/~kaction kaction
+=> gemini://sdf.org/clinquant/index.gmi clinquant
+=> gemini://tilde.pink/~ali ali
+=> gemini://devinprater.flounder.online devin
+=> gemini://vignette.kalasarn.se/ mmww
+=> gemini://republic.circumlunar.space/users/joneworlds/ joneworlds
+=> gemini://tanelorn.city/~vidak/ vidak
+=> gemini://tilde.town/~hush/ ~hush
+
+## Link curators
+
+These capsules maintain the collections many of the links here were found through. Thank you!!
+
+=> gemini://tilde.pink/~emily ~emily
+=> gemini://gemini.ctrl-c.club/~aesophod/ ~aesophod
+=> gemini://gemini.ctrl-c.club/~de_alchmst/ ~de_alchmst
+=> gemini://gemini.ctrl-c.club/~edisondotme/ ~edisondotme
+=> gemini://gemini.ctrl-c.club/~gzj/ ~gzj
+=> gemini://gemini.ctrl-c.club/~w3bk3rn3l/ ~w3bk3rn3l
+=> gemini://gemini.ctrl-c.club/~zenspace/ ~zenspace
+=> gemini://eluum.net/ eluum
+=> gemini://gmi.hedy.dev/ hedy
+
+## Active ~pink capsules
+
+=> gemini://tilde.pink/~johl ~johl
+=> gemini://tilde.pink/~kirch ~kirch
+=> gemini://tilde.pink/~lacour ~lacour
+=> gemini://tilde.pink/~m040601 ~m040601
+=> gemini://tilde.pink/~para ~para
+=> gemini://tilde.pink/~rebel1725 ~rebel1725
+=> gemini://tilde.pink/~ssb22 ~ssb22
+
+## Good Gemlogs
+
+=> gemini://degrowther.smol.pub/ Degrowther
+=> gemini://idiomdrottning.org/sub Idiomdrottning
+=> gemini://rawtext.club/~left_adjoint/ Left adjoint's free monoid microblog
+=> gemini://gemini.ctrl-c.club/~lettuce/ Lettuce Gemlog
+=> gemini://njms.ca/gemlog/ njms' gemlog
+=> gemini://officialdonut.smol.pub/ Official Donut of the Small Web
+=> gemini://ploum.net/index_en.gmi Ploum's English gemlog
+=> gemini://rawtext.club/~ploum/ Ploum's Offline Typewriter
+=> gemini://gemini.circumlunar.space/users/shufei/phlog/index.gmi Shufei's Gmiphlog
+=> gemini://gemini.circumlunar.space/users/shufei/phlog/Shufei-ThisAndThat-Weiphlog.gmi Shufei's Weiphlog
+=> gemini://arcanesciences.com/gemlog/ Sunset's gemlog
+=> gemini://rawtext.club/~winter/gemlog/ Winter's gemlog
+=> gemini://samsai.eu/gemlog.gemini Samsai's gemlog
+=> gemini://perso.pw/blog/ Solene's gemlog
+=> gemini://gemini.cyberbot.space/gemlog/ kelbot's gemlog
+=> gemini://carcosa.net/journal prothetic conscience, a comrade's gemlog
+=> gemini://zach.e-worm.club/ zach's frequently updated log
+=> gemini://gmi.noulin.net/feed.gmi Remy Noulin's tech articles
+
+## Documents & Libraries
+
+=> gemini://library.inu.red Gemini mirror of the Anarchist Library
+=> gemini://gemini.bortzmeyer.org/rfc-mirror/rfc-index.gmi Gemini mirror of all IETF RFCs
+=> gemini://park-city.club/library/ Park City Library: collecting, categorizing, and preserving the works of internet communities
+=> gemini://vault.transjovian.org TransJovian, a Gemini encyclopedia
+=> gemini://gemini.cyberbot.space/smolzine/ smolzine
+=> gopher://rawtext.club:70/1~cmccabe/pubnixhist/ A history of public unix systems
+=> gopher://tilde.pink:70/1/~bencollver/dict/ Dictionary look-ups
+=> gopher://tilde.pink:70/9/~bencollver/books/FederalPLGuidelines.pdf Federal Plain Language Guidelines (PDF)
+=> gopher://tilde.pink:70/9/~bencollver/books/how-to-write-clearly.pdf How to Write Clearly (PDF)
+=> gopher://tilde.pink:70/0/~bencollver/text/nato-alphabet.txt NATO phonetic alphabet
+=> gopher://tilde.pink:70/1/~bencollver/effman/ Writing effective man pages
+=> gopher://tilde.pink:70/1/~bencollver/dos/ DOS nostalgia
+=> gopher://tilde.pink:70/1/~bencollver/ftp/ FTP sites
+=> gopher://tilde.pink:70/1/~bencollver/gamefaqs/ GameFAQs archive
+=> gopher://tilde.pink:70/1/~bencollver/books/basic-asanas/ Basic asanas
+=> gopher://tilde.pink:70/1/~bencollver/books/surya-namaskar/ Surya namaskar
+=> gopher://sdf.org:70/1/users/agk/1st First aid
+
+## Arts & Fun
+
+=> gemini://cyberdreams.info/videos/index.gmi CyberDreams Video Archive
+=> gemini://tilde.pink/~doriancodes/asciimoji.gmi ~doriancodes' ASCIImoji / Kaomoji Collection
+=> gemini://mozz.us/cgi-bin/cowsay Mozz's Cowsay Generator
+=> gemini://astrobotany.mozz.us/ Astrobotany
+=> gemini://zaibatsu.circumlunar.space/~shufei/pnp/PikiAndPoko.gmi Shufei's Smolnet Piki and Poko Fancapsule
+=> gemini://gemini.nasman.us/dad_tips.py Dad tips generator
+=> gopher://workingpayphones.com:70/1/ Working phone booths
+
+## Games
+
+=> gemini://spell.mywire.org:1966/ Spellbinding, an addictive word game
+=> gemini://tilde.cafe/~spellbinding/wordo/cgi? Wordo, a wordle-like game
+=> gemini://tilde.cafe/~spellbinding/wall/cgi A public wall to leave messages on
+=> gemini://tictactoe.lanterne.chilliet.eu Tic-tac-toe
+=> gemini://rawtext.club/~sloum/cgi/othello/ Othello/Reversi against the computer
+
+## Music
+
+=> gemini://gemini.circumlunar.space:1965/~sloum/ Drift Theory, a small collection of music released on Gemini
+=> gemini://tilde.team/~jonathan/music/ Jonathan's noughties music reviews
+=> gemini://konpeito.media The legendary Konpeito quarterly mixtapes
+=> gemini://kovok.band/ Kovok, possibly the first band on Gemini
+=> gemini://republicofsound.flounder.online/ Republic of Sound, free album downloads
+=> gemini://rawtext.club/~sloum/musicmachine/ Music Machine, short album reviews
+=> gemini://oberdada.pollux.casa/metal_intro.gmi Oberdada's Guide to Obscure Metal
+
+## Photography
+
+=> gemini://158.nu 158.nu's film photography hobby projects
+=> gemini://kota.nz/pics/ Kota's pics
+
+## Recipes
+
+=> gemini://rawtext.club/~sloum/cgi/recipes/ A searchable index of 1,000 recipes
+=> gemini://breadpunk.club/~rye/ Rye, a collection of vegan, mostly soy-free recipes
+=> gemini://gemini.circumlunar.space/users/hundredrabbits/recipes.gmi Vegan recipes from Hundred Rabbits
+
+## Indigenous Language Content
+
+=> gemini://taisui.space/tatis/index.gmi Siɂisim Tatis, a smol newsletter in Chinukwawa
+
+## Permacomputing & Essays
+
+=> gemini://perma.computer/letter Technological Futures: A Letter to the Smolnet
+=> gemini://smol.earth/manifesto.gmi Personal computing in the Anthropocene with eyes, minds and hearts wide open
+=> gemini://idiomdrottning.org/texts.gmi Idiomdrottning's collected texts
+=> gemini://midnight.pub/posts/163 Nick Cave on finding good ideas
+
+## Software & How-tos
+
+=> gemini://skyjake.fi/lagrange/ Lagrange, a Gemini browser
+=> gemini://makeworld.space/amfora-wiki Amfora Wiki
+=> gemini://rawtext.club/~sloum/spacewalk.gmi Spacewalk
+=> gemini://qwertqwefsday.eu/agate.gmi Agate, a Gemini server
+=> gemini://gemini.smallweb.space/HOWTO/managing-your-own-capsule.gmi How to self-host a capsule
+=> gemini://aelspire.info/posts/2022-07-28-dotfiles/post.gmi Managing dot files
+=> gemini://srht.site/ SourceHut Gemini hosting
+=> gemini://srht.site/quickstart.gmi SourceHut's quick start guide
+=> gemini://glv.one glv.one, PaaS that runs any Gemini server in the cloud
+=> gemini://gemini.omarpolo.com/cgi/gempkg/ gempkg, an interface to the OpenBSD ports collection
+
+## Tools & Services
+
+=> gemini://gemi.dev/cgi-bin/waffle.cgi NewsWaffle, read any news website via Gemini
+=> gemini://gemi.dev/cgi-bin/wp.cgi Gemipedia, Gemini frontend to Wikipedia
+=> gemini://gemi.dev/stargate.gmi Stargate, public Gemini-to-HTTP gateway
+=> gemini://rawtext.club/~sloum/geminews/ Geminews, an NPR, CSM, and CNN mirror
+=> gopher://nihirash.net:7000/1/ Gopher web proxy
+=> gemini://ur.gs/ ur.gs, English-Spanish translator
+=> gemini://rawtext.club/~sloum/cgi/weather US weather reports by zip code
+=> gemini://tilde.cafe/~stack/weather Weather forecast powered by wttr.in
+=> gopher://gopher.floodgap.com:70/1/groundhog/us/zipcode%3F97526 Takelma weather
+=> gopher://tilde.pink:70/1/~bencollver/dir/ Gopher Google directions
+=> gemini://houston.gmi.bacardi55.io Houston, check whether a capsule is up
+=> gemini://hashnix.club:1958/ hashnix.club email service
+=> gemini://kevachat.duckdns.org KevaChat clearnet node
+=> gemini://kvazar.duckdns.org Observe the Kevacoin Universe
+=> gemini://betahowto.duckdns.org Yggdrasil DokuWiki satellite
+
+## Other Link Collections
+
+=> gemini://rawtext.club/~winter/links/ Winter's link garden
+=> gemini://hnr.fyi/research.gmi Honor Ash's collected resources on degrowth, communities & scale, and more
+=> gopher://tilde.pink/1/~bencollver/links/ bencollver's links list
+=> gemini://gemini.ctrl-c.club/~aesophod/bookmarks/bookmarks.gmi ~aesophod's bookmarks
+=> gemini://gemini.ctrl-c.club/~zenspace/bookmarks.gmi ~zenspace's bookmarks
+=> gemini://gmi.hedy.dev/blogroll.gmi hedy's blogroll
+=> gemini://eluum.net/link-garden.gmi eluum's link garden
+=> gemini://gemini.cyberbot.space/links.gmi kelbot's links
+=> gemini://nytpu.com/feed.gmi nytpu's list of capsules and gopherholes
+=> gopher://box.matto.nl:70/1/phlogroll phlogroll
+=> gopher://box.matto.nl:70/1/burrows-of-interest Burrows of Interest
+=> gemini://station.martinrue.com/softwarepagan/4f077db00e7541b082403650735d954d Station thread: everyone's coolest Gemini links
+
+
+## Contact
+
+=> mailto:mail@brennanbrown.ca mail@brennanbrown.ca
+=> https://brennan.day My website
+=> https://brennanbrown.ca My portfolio
+
+## TODO
+
+* more ascii art
+* add an emoji favicon to the capsule (see favicon links in The Gemini Project)
+* add .well-known/security.txt (contact: mailto:gemini@brennanbrown.ca)
+* add gemlog / phlog (at /log/? ~brennan/log/index.gmi)
+* update log
+* fill out contact section (PGP key, XMPP, gopherhole?)
+
+## Gemini BBS / Station Cert
+
+```
+-----BEGIN CERTIFICATE-----
+MIICojCCAYoCCQCvf2piFXyL9jANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdi
+cmVubmFuMCAXDTI2MDkxNzIzMzcwNVoYDzk5OTkxMjMxMjM1OTU5WjASMRAwDgYD
+VQQDDAdicmVubmFuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ejF
+Fzh8Lk/tltvGY3Zkf5mo2bl1SB7JIX538n+3AS6lDaC8rCnonoLhVutiWqpJUpvq
+3m6SOqMrgUb/sEBTPKW6xZcHr0kyG1xQcT82i84+miRy7b+2HXWMIBKI4siJcMSg
+GjieRPPgMZuv9q7bOtBxMxpsrM04Vgf7bny6JCNLPv5Z21ePo/DeBlMjM7poJ/yH
+ZdVaoDXnqeKZlVV6MABo0NQAEYnHHSf6atLFcEe3vfB3RyvBS2a5m1LdD04mIhwj
+dZicB7t53SSFZ/NxDpG2UWBmwmd9D/n0ocHWuJ/F4oiuIECN0w9d2x/WuNR5F+Ha
+5kc6jJbsUTfoHZlXYwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDg1GqwitkN3sFf
+37J4pPs254qo4CAyGRvkoKNf/iYtrqsYZ1tP3qdINfGRfYFMUp7M1LzFF3Vzb459
+VMpssCExS4in4GPXF+wqV7zWnM9YKd7tbufr+Y/6QBkeqsC7sPjTy3sk+aEQw8hs
+nd7tqwy1RKnCsBdicPPsWdMqMlMaaPGPQzEZh+iJLolcdTF8WC2Bg7WsA1ohEwyq
+QbKg7bloYCI5KqPJD755LD8eU2Pwy8ZwsVJ0nSsHTrW9xYbCDquzCO6dxBvO81wZ
+WrsOpMy2PDXryy3PuYuE0zHy+NGWunerH3VI04I9xmnsUwTVWboyJahLru6p5Ixy
+jND6ysb7
+-----END CERTIFICATE-----
+```
